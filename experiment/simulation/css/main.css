@@ -1,1 +1,140 @@
 /* You CSS goes in here */
+body {
+    font-family: Arial, sans-serif;
+        background-image: radial-gradient(at 50% 50%, #e0fcff, #eff9ff);
+        font-weight:600;
+    }
+  
+   
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(233, 245, 249);
+    border-radius: 5px;
+    box-shadow: 0 20px 40px rgba(22, 75, 89, 0.3);
+  }
+
+  .container::before{
+    backdrop-filter: blur(15px);
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 36px;
+  }
+  
+  .alert {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 3px;
+  }
+  
+  .alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+  }
+  
+  .text-warning {
+    color: #8a6d3b;
+  }
+  
+  .text-danger {
+    color: #a94442;
+  }
+  
+  .text-success {
+    color: #3c763d;
+  }
+  
+  .text-info {
+    color: #31708f;
+  }
+  
+  textarea {
+    width: 100%;
+    resize: none;
+    border: 1px solid rgb(67, 44, 44);
+    border-radius: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  #result, #result2, #result3 {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    max-height: 300px;
+  }
+  
+  #inputAdvancedOutput {
+    margin-right: 10px;
+  }
+  
+  #inputAdvancedOutput + label {
+    vertical-align: middle;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background-image: linear-gradient(to right, #0099bf, #5d008b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+  
+  h6 {
+    font-size: 14px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #0044cc
+  
+  }

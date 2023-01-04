@@ -1,13 +1,46 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+	<title>Gaussian Ellimination method</title>
+	<link rel="stylesheet" href="./css/main.css">
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
-</html>
+</head>
+<body class="backdrop-blur">
+
+	<div class="container backdrop">
+		<h1 class="text-warning">Gaussian Elimination Simulation</h1>
+		<div class="alert alert-info">For an mxn system of linear equations consisting of m equations having n variables, the input is a mx(n+1) matrix containing the cofficients and the last column being the constants</div>
+
+		<div class="col-md-6">
+			<h3 class="text-danger">Enter the Augmented matrix (Input)</h3>
+			<textarea id="matrixInput" class="form-control" rows="8">
+</textarea>
+			</div>
+		
+			<div class="col-md-6">
+				<h3 class="text-info" data-mdb-animation="slide-right">System of linear equations (cofficients only)</h3>
+				<div id="result" class="jumbotron"></div>
+			</div>
+			
+			<div class="col-xs-12">
+				<h3 class="text-info">Matrix in row echelon form</h3>
+				<p><input type="checkbox" id="inputAdvancedOutput"/> 	Steps of calculation</p>
+				<div id="result2" class="jumbotron" ></div>
+			</div>
+			<div class="col-xs-12">
+				<h3 class="text-success">Result after back substitution</h3>
+				<div id="result3" class="jumbotron"></div>
+			</div>
+		</div>
+		<script src="./js/main.js"></script>
+		<script>
+			var matrix = [];
+			document.getElementById('matrixInput').onkeyup = function(){
+				gaussian.calculateWholeMatrix('matrixInput', 'result', 'result2', 'result3', document.getElementById("inputAdvancedOutput").checked);
+			};
+			document.getElementById("inputAdvancedOutput").onchange = function(){
+				gaussian.calculateWholeMatrix('matrixInput', 'result', 'result2', 'result3', document.getElementById("inputAdvancedOutput").checked);
+			};
+			gaussian.calculateWholeMatrix('matrixInput', 'result', 'result2', 'result3', document.getElementById("inputAdvancedOutput").checked);
+		</script>
+	</body>
+	</html>
