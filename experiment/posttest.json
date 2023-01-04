@@ -2,38 +2,39 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the solution of the given system, when solved by Gaussian Elimination? \n 4x + 3y = 11 \n x - 3y= -1",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "(2,1)",
+        "b": "(1,2)"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "On placing x=2 and y=1, the given system is satisfied",
+        "b": "On placing x=1 and y=2, the given system is not satisfied"
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "Intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Read the solutions by back substitution method: \n ",
+      "matrix": [
+        [1, 0, 0, 2],
+        [0, 1, 0, -1],
+        [0, 0, 1, 3]
+      ],
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "(1 1 3)",
+        "b": "(1 2 3)",
+        "c": "(0 2 3)",
+        "d": "(2 -1 3)"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The value of x and y is incorrect",
+        "b": "The value of x and y is incorrect",
+        "c": "The value of x and y is incorrect",
+        "d": "The correct values are \n x = 2, y = -1, z = 3"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "d",
+      "difficulty": "Advanced"
     }
   ]
 }

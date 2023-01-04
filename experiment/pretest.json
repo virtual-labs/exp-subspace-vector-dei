@@ -4,36 +4,51 @@
     {
       "question": "This is a Sample Question 1?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "(0 1 -7 -4)",
+        "b": "(0 1 7 4)",
+        "c": "(0 1 7 8)",
+        "d": "(0 1 -7 -8)"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "From R2, twice of R1 is subtracted to obtain (0 1 -7 -4)",
+        "b": "Subtraction of 2R1 from R2 is incorrect",
+        "c": "Subtraction of 2R1 from R2 is incorrect",
+        "d": "Subtraction of 2R1 from R2 is incorrect"
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following is in echelon form? ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": [
+          [1, 2, 3, 4],
+          [0, 0, 1, 3],
+          [0, 0, 0, 1]
+        ],
+        "b": [
+          [7, 0],
+          [0, 2]
+        ],
+        "c": [
+          [1, 2, 1],
+          [0, 0, 0],
+          [0, 1, 1]
+        ],
+        "d": [
+          [2, 3, 0, 6],
+          [0, 1, 0, 2],
+          [0, 0, 2, 3]
+        ]
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The first non zero element in each row is 1",
+        "b": "First non zero entry in each row is not 1",
+        "c": "Rows with all zero elements , if any are below the rows having a non-zero element",
+        "d": "First non zero entry in each row is not 1"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
     }
   ]
 }
