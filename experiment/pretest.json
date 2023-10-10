@@ -2,12 +2,29 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1.	Consider the vector space R<sup>2</sup> over R. Its zero is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "0 ϵ R",
+        "b": "(1, 0) ϵ R<sup>2</sup>",
+        "c": "(0, 1) ϵ R<sup>2</sup>",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "	Consider the vector space M<sub>2 x 2</sub> over R. Then the additive inverse of  (■(a&a@a&a))  ϵ M<sub>2 x 2</sub>, where a ϵ R and a≠0 is",
+      "answers": {
+        "a": "(■(-a&-a@-a&-a))",
+        "b": "(■(-a&-a@a&a))",
+        "c": "(■(1/2a&1/2a@1/2a&1/2a))",
+        "d": "Does not exist"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +36,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3.	Which of the following planes pass through origin",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "ax + by + cz = 0",
+        "b": "ax - by + z = 7",
+        "c": "ax - by = 9",
+        "d": "2(x-1) + (y-2) + (z+3) = 0"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,7 +49,24 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4.	Which of the following equations represent a line passing through origin?",
+      "answers": {
+        "a": "x<sup>2</sup> + y<sup>2</sup> = 0 ",
+        "b": "x + y = x<sup>2</sup>",
+        "c": "x = 2",
+        "d": "y = -x"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
