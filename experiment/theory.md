@@ -5,11 +5,11 @@ Let V be a vector space over a field F≡R or C, where R is the set of real numb
   ii.  0 ∈ W <br>
   iii. x + y ∈ W; where x ∈ W , y ∈ W and <br>
   iv.  α . x ∈ W; where x ∈ W , α ∈ F <br>
-**3. Examples:** <br>
+**3. Examples - I:** <br>
   i.	 Every vector space V is a subspace of itself. <br>
   ii.	 {0} is a subspace of V. <br>
   iii. {0} is the only subspace of the vector space {0} over F. <br>
-**4. Examples:** <br>
+**4. Examples -II:** <br>
 	W1={(x, 0, 0, …0) ∈ R<sup>n</sup> : x ∈ R} is a subspace of the vector space R<sup>n</sup> over R. <br>
 	W2={(x, x, 0) ∈ R<sup>3</sup> : x ∈ R} is a subspace of the vector space R<sup>3</sup> over R. <br>
 	W3={(x, x, x) ∈ R<sup>3</sup> : x ∈ R} is  a subspace of the vector space R<sup>3</sup> over R. <br>
