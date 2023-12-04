@@ -1,13 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+	<title>Subspaces</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
 </head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<body>
+	<h1 class="head">SUBSPACES</h1>
+	<div class="sss">
+		<h2 class="subhead">Subspaces of R<sup>n</sup></h2>
+	</div>
+	<div class="responsive-three-column-grid">
+
+		<div class="column">
+			<a class="btn" onclick="ssR()">Subspaces of R</a>
+			<p class="subspaces" id='ssR'></p>
+			<a href="#R1explain" id='ssR1exp' onclick="r1explanation()"></a>
+			<p id="R1explain1" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+			<p id="R1explain2" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+			<p id="R1explain3" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+			
+		</div>
+		<div class="column">
+			<a class="btn" onclick="ssR2()">Subspaces of R<sup>2</sup></a>
+			<p class="subspaces" id='ssR2'></p>
+			<a href="#R2explain" id='ssR2exp' onclick="r2explanation()"></a>
+			<p id="R2explain1" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+			<p id="R2explain2" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+			<p id="R2explain3" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+			<p id="R2explain4" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+		</div>
+		<div class="column">
+			<a class="btn" onclick="ssR3()">Subspaces of R<sup>3</sup></a>
+			<p class="subspaces" id='ssR3'></p>
+			<a href="#R3explain" id='ssR3exp' onclick="r3explanation()"></a>
+			<p id="R3explain"></p>
+		</div>
+
+	</div>
+	<p style="float: center; align-content:right;">
+	<a href="./" class="previous">&laquo; Previous</a>
+	</p>
 </body>
+<script src="js/js1.js"></script>
+
 </html>

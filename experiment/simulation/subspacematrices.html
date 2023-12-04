@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<title>Subspaces</title>
+		<link rel="stylesheet" type="text/css" href="css/style2.css">
+	</head>
+	<body>
+		<h1 class="head">SUBSPACES</h1>
+		<div class="ssmatrices">
+			<h2 class="subhead">Vector Space V &equiv; M<sub>2x2</sub> over R (Standard Operations), where M<sub>2x2</sub> is the collection of 2x2 real matrices</h2>
+			<div class="responsive-two-column-grid">
+				<div class="text">
+					<h3>(i) W = {<td rowspan="2">
+			        <math>
+			          <mrow>
+			            <mo>(</mo>
+			            <mtable>
+			              <mtr>
+			                <mtd>
+			                  <mi>a</mi>
+			                </mtd>
+			                <mtd>
+			                  <mi>0</mi>
+			                </mtd>
+			              </mtr>
+			              <mtr>
+			                <mtd>
+			                  <mi>0</mi>
+			                </mtd>
+			                <mtd>
+			                  <mi>b</mi>
+			                </mtd>
+			              </mtr>
+			            </mtable>
+			            <mo>)</mo>
+			          </mrow>
+			        </math>
+	      		</td> : a , b &isin; R}  is a subspace of V.</h3>
+					
+
+	      	<h4 class="justify">JUSTIFICATION : </h4>
+
+					<button id="btn" type="button" onclick="showABal();">Let</button>
+					<p> <span id="showA"></span> <span id="showB"></span> <span id="showal"></span></p>
+					
+					<button id="btn" type="button" onclick="showjst();">Then</button>
+					<p id="showApB"></p><p id="showalA"></p><p id="showz"></p>
+					<button id="btn" type="button" onclick="showres();">Conclusion</button>
+					<p id="showres"></p>
+
+					<h4 class="justify">CAUTION : </h4>
+
+					<input id="btn" type="submit" onclick="showform();" value="Choose matrices">
+	      	<div id="showform" style = "display:none;">
+		      	<form id="matval" action="?" method="POST">
+		      		<label>Enter:</label><br>
+						  <label for="a_val">a:</label>
+						  <input type="text" id="a_val" name="a_val">
+						  <label for="b_val">b:</label>
+						  <input type="text" id="b_val" name="b_val"><br><br>
+						  <label for="c_val">c:</label>
+						  <input type="text" id="c_val" name="c_val">
+						  <label for="d_val">d:</label>          
+						  <input type="text" id="d_val" name="d_val"><br><br>
+						  <label for="al_val">&alpha;:</label>
+		  				<input type="text" id="al_val" name="al_val"><br><br>
+						  <button id="btn" type="button" onclick="showmatrix();">Submit</button>
+						</form>
+					</div>
+
+					<p id="displayA"></p>
+					<p id="displayB"></p>
+					<p id="displayApB"></p>
+					<p id="displayalA"></p>
+					<p id="result"></p>
+
+					
+				  
+				</div>
+
+				<div class="imgs">
+					<img src="./images/ssim1.png" alt="img here">
+				</div>
+			</div>
+			<hr style="background: transparent;">
+			<div class="responsive-two-column-grid">
+				<div class="text">
+				<h3>(ii) W = {2x2 real matrices with integer entries} is not a subspace of V.</h3>
+
+      	<h4 class="justify">JUSTIFICATION : </h4>
+
+					<button id="btn" type="button" onclick="showABal2();">Let</button>
+					<p> <span id="showA2"></span> <span id="showB2"></span> <span id="showal2"></span></p>
+					
+					<button id="btn" type="button" onclick="showjst2();">Then</button>
+					<p id="showApB2"></p><p id="showalA2"></p><p id="showz2"></p>
+					<button id="btn" type="button" onclick="showres2();">Conclusion</button>
+					<p id="showres2"></p>
+
+				<h4 class="justify">CAUTION : </h4>
+				<input id="btn" type="submit" onclick="showform2();" value="Choose matrices">
+				<div id="showform2" style = "display:none;">
+				
+      	<form id="mat2val" action="?" method="POST">
+      		<label>(Enter integer values only)</label><br>
+				  <label for="a2_val">a:</label>
+				  <input type="number" id="a2_val" name="a2_val">
+				  <label for="b2_val">b:</label>
+				  <input type="number" id="b2_val" name="b2_val"><br><br>
+				  <label for="c2_val">c:</label>
+				  <input type="number" id="c2_val" name="c2_val">
+				  <label for="d2_val">d:</label>          
+				  <input type="number" id="d2_val" name="d2_val"><br><br>
+				  <label for="e2_val">e:</label>
+				  <input type="number" id="e_val" name="e2_val">
+				  <label for="f2_val">f:</label>
+				  <input type="number" id="f_val" name="f2_val"><br><br>
+				  <label for="g2_val">g:</label>
+				  <input type="number" id="g_val" name="g2_val">
+				  <label for="h2_val">h:</label>          
+				  <input type="number" id="h_val" name="h2_val"><br><br>
+				  <label for="al2_val">&alpha;:</label>
+  				<input type="number" id="al2_val" name="al2_val"><br><br>
+				  <button id="btn" type="button" onclick="showmatrix2();">Submit</button>
+				</form>
+			</div>
+
+					<p id="displayA2"></p>
+					<p id="displayB2"></p>
+					<p id="displayApB2"></p>
+					<p id="displayalA2"></p>
+					<p id="result2"></p>
+
+					
+	
+				</div>
+				<div class="imgs">
+					<img src="./images/ssim2.png" alt="img here">
+				</div>
+			</div>
+		</div>
+		<p style="float: center; align-content:right;">
+		<a href="./subspacematrices.html" class="next" >Next &raquo;</a></p>
+	</body>
+	<script src="js/js2.js"></script>
+
+</html>
