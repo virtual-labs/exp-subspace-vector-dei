@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Consider the vector space R<sup>2</sup> over R. Then which of the following are subspaces of R<sup>2</sup>?<br>i. y=x<br>ii. xy=0<br>iii. x<sup>2</sup>+y<sup>2</sup>=9<br>iv. y=x<sup>2</sup>",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Only (i) & (iii)",
+        "b": "Only (i)",
+        "c": "Only (ii), (iii) & (iv)",
+        "d": "(i), (ii), (iii) & (iv)"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,84 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Consider the vector space R<sup>2</sup> over R. Then which of the following are subspaces of R<sup>2</sup>?<br>i. {(x, y) ϵ R<sup>2</sup> : x<sup>2</sup> + y<sup>2</sup> = 0}<br>ii. {(x, y) ϵ R<sup>2</sup> : x.y>0}<br>iii. {(x, y) ϵ R<sup>2</sup> : x>0, y<0}",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Only (i)",
+        "b": "Only (i) & (iii)",
+        "c": "(i), (ii) & (iii)",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider the vector space R<sup>3</sup> over R. Then which of the following are subspaces of R<sup>3</sup>?<br>i. A sphere centered at origin with radius 1<br>ii. A plane passing through origin <br>iii. A line passing through origin <br>iv. A plane parallel to the x-y plane and passing through (1, 1, 1)",
+      "answers": {
+        "a": "Only (i), (ii) & (iv)",
+        "b": "Only (ii) & (iii)",
+        "c": "Only (ii), (iii) & (iv)",
+        "d": "(i), (ii), (iii) & (iv)"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following are subspaces of the vector space R<sup>3</sup> over R?<br>i. W1={(2x, 3y+z, 4) : x, y, z ϵ R}<br>ii. W2={(2x, 1, 2) : x ϵ R}<br>iii. W3={(y, z, x) : x, y, z ϵ R}",
+      "answers": {
+        "a": "Only (i) & (ii)",
+        "b": "Only (ii) & (iii)",
+        "c": "(i), (ii) & (iii)",
+        "d": "Only (iii)"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider the vector space M<sub>2 x 2</sub> over R. Which of the following is a subspace of M<sub>2 x 2</sub>?<br>i. W1={A ϵ M<sub>2x2</sub> | det(A) = 0}<br>ii. W2={A  ϵ M<sub>2x2</sub> | a<sub>12</sub> = a<sub>21</sub>}",
+      "answers": {
+        "a": "Only (i)",
+        "b": "Only (ii)",
+        "c": "Both (i) & (ii)",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "(A) Arbitrary union of subspaces of a vector space is a subspace.<br>(B) Arbitrary intersection of subspaces of a vector space is a subspace.",
+      "answers": {
+        "a": "A is true, B is false",
+        "b": "A is false, B is false",
+        "c": "A is false, B is true",
+        "d": "A is true, B is true"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
