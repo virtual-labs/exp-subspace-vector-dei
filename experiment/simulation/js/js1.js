@@ -18,7 +18,7 @@ function ssR(){
 		document.getElementById('R2explain1').innerHTML=("<span style='font-weight:bold; color:blue; font-size:15px;'>Step-1. W &ne; {0} : </span><br><br> &emsp; (a , b) &isin; W ; (a , b) &ne; 0 &equiv; (0 , 0) <br> <img src='./images/ssr2sim1.png' alt='img here' style='width:10rem; height:auto;'>");
 		document.getElementById('R2explain2').innerHTML=("<span style='font-weight:bold; color:blue; font-size:15px;'>Step-2. L &sube; W : </span><br><br> &emsp; L &equiv; line passing through 0 and (a , b) <br> <img src='./images/ssr2sim2.png' alt='img here' style='width:10rem; height:auto;'>");
 		document.getElementById('R2explain3').innerHTML=("<span style='font-weight:bold; color:blue; font-size:15px;'>Step-3. W &ne; a line passing through origin : </span><br><br> &emsp; W &ne; L &exist; (c , d) &isin; W ; (c , d) &notin; L <br> &emsp; => (c , d) = &alpha; . (a , b) ; c &ne; &alpha; a & d &ne; &alpha; b");
-		document.getElementById('R2explain4').innerHTML=("<span style='font-weight:bold; color:blue; font-size:15px;'>Step-4. Contradiction : </span><br><br> &emsp; (x , y) &isin; R<sup>2</sup> <br>&emsp; (x , y) = &alpha; (a , b) + &beta; (c ,d) <br><br> &emsp; <a href='theory.html'>See theory for details</a>");
+		document.getElementById('R2explain4').innerHTML=("<span style='font-weight:bold; color:blue; font-size:15px;'>Step-4. Contradiction : </span><br><br> &emsp; (x , y) &isin; R<sup>2</sup> <br>&emsp; (x , y) = &alpha; (a , b) + &beta; (c ,d) <br><br> &emsp;");
 	}
 
 	function ssR3(){
