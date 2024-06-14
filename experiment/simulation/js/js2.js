@@ -4,16 +4,23 @@ function showmatrix() {
 	    let c = document.querySelector("#c_val").value;
 	    let d = document.querySelector("#d_val").value;
 	    let al = document.querySelector("#al_val").value;
+		
+		if(a == "" || b == "" || al == ""){
+			alert("please first enter the values.");
+		}
+		else{
+			
+			document.getElementById("displayA").innerHTML = ("A = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + a + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + b + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>");
 
-	    document.getElementById("displayA").innerHTML = ("A = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + a + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + b + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>");
-
-	    document.getElementById("displayB").innerHTML = ("B = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + c + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + d + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>");
-
-	    document.getElementById("displayApB").innerHTML = ("A + B = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + Number(Number(a)+Number(c)) + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + Number(Number(b)+Number(d)) + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>  &isin; W");
-
-	    document.getElementById("displayalA").innerHTML = ("&alpha; . A = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + Number(Number(al)*Number(a)) + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + Number(Number(al)*Number(b)) + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>  &isin; W");
-
-	    document.getElementById("result").innerHTML = ("<span style='font-weight:bold';>Conclusion :</span> This does not justify that W is a subspace of V.");
+			document.getElementById("displayB").innerHTML = ("B = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + c + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + d + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>");
+	
+			document.getElementById("displayApB").innerHTML = ("A + B = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + Number(Number(a)+Number(c)) + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + Number(Number(b)+Number(d)) + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>  &isin; W");
+	
+			document.getElementById("displayalA").innerHTML = ("&alpha; . A = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + Number(Number(al)*Number(a)) + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + Number(Number(al)*Number(b)) + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>  &isin; W");
+	
+			document.getElementById("result").innerHTML = ("<span style='font-weight:bold';>Conclusion :</span> This does not justify that W is a subspace of V.");
+	
+		}
 
 	  }
 	  function showABal(){
@@ -50,16 +57,26 @@ function showmatrix() {
 	    let h = document.querySelector("#h_val").value;
 	    let al2 = document.querySelector("#al2_val").value;
 
-	    document.getElementById("displayA2").innerHTML = ("A = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd></mtr><mtr><mtd><mi>c</mi></mtd><mtd><mi>d</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td> = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + a2 + "</mi></mtd><mtd><mi>" + b2 + "</mi></mtd></mtr><mtr><mtd><mi>" + c2 + "</mi></mtd><mtd><mi>" + d2 + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td> &isin; W");
+		if(a2 == "" || b2 =="" || c2 == "" || d2 == "" || e == "" || f == "" || g == "" || h == "" || al2 == "") {
 
-	    document.getElementById("displayB2").innerHTML = ("B = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>e</mi></mtd><mtd><mi>f</mi></mtd></mtr><mtr><mtd><mi>g</mi></mtd><mtd><mi>h</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td> = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + e + "</mi></mtd><mtd><mi>" + f + "</mi></mtd></mtr><mtr><mtd><mi>" + g + "</mi></mtd><mtd><mi>" + h + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td> &isin; W");
+			alert(" please first enter the values. ");
+			
+		}
 
-	    document.getElementById("displayApB2").innerHTML = ("A + B = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + Number(Number(a2)+Number(e)) + "</mi></mtd><mtd><mi>" + Number(Number(b2)+Number(f)) + "</mi></mtd></mtr><mtr><mtd><mi>" + Number(Number(c2)+Number(g)) + "</mi></mtd><mtd><mi>" + Number(Number(d2)+Number(h)) + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>  &isin; W");
+		else{
 
-	    document.getElementById("displayalA2").innerHTML = ("&alpha; . A = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + Number(Number(al2)*Number(a2)) + "</mi></mtd><mtd><mi>" + Number(Number(al2)*Number(b2)) + "</mi></mtd></mtr><mtr><mtd><mi>" + Number(Number(al2)*Number(c2)) + "</mi></mtd><mtd><mi>" + Number(Number(al2)*Number(d2)) + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>  &isin; W");
+			document.getElementById("displayA2").innerHTML = ("A = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd></mtr><mtr><mtd><mi>c</mi></mtd><mtd><mi>d</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td> = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + a2 + "</mi></mtd><mtd><mi>" + b2 + "</mi></mtd></mtr><mtr><mtd><mi>" + c2 + "</mi></mtd><mtd><mi>" + d2 + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td> &isin; W");
 
-	    document.getElementById("result2").innerHTML = ("<span style='font-weight:bold';>Conclusion :</span> This does not justify that W is a subspace of V.");
-
+			document.getElementById("displayB2").innerHTML = ("B = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>e</mi></mtd><mtd><mi>f</mi></mtd></mtr><mtr><mtd><mi>g</mi></mtd><mtd><mi>h</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td> = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + e + "</mi></mtd><mtd><mi>" + f + "</mi></mtd></mtr><mtr><mtd><mi>" + g + "</mi></mtd><mtd><mi>" + h + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td> &isin; W");
+	
+			document.getElementById("displayApB2").innerHTML = ("A + B = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + Number(Number(a2)+Number(e)) + "</mi></mtd><mtd><mi>" + Number(Number(b2)+Number(f)) + "</mi></mtd></mtr><mtr><mtd><mi>" + Number(Number(c2)+Number(g)) + "</mi></mtd><mtd><mi>" + Number(Number(d2)+Number(h)) + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>  &isin; W");
+	
+			document.getElementById("displayalA2").innerHTML = ("&alpha; . A = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + Number(Number(al2)*Number(a2)) + "</mi></mtd><mtd><mi>" + Number(Number(al2)*Number(b2)) + "</mi></mtd></mtr><mtr><mtd><mi>" + Number(Number(al2)*Number(c2)) + "</mi></mtd><mtd><mi>" + Number(Number(al2)*Number(d2)) + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>  &isin; W");
+	
+			document.getElementById("result2").innerHTML = ("<span style='font-weight:bold';>Conclusion :</span> This does not justify that W is a subspace of V.");
+	
+		}
+	   
 	  }
 
 	  function showABal2(){
