@@ -10,15 +10,20 @@ Let V be a vector space over a field F≡R or C, where R is the set of real numb
   ii.	 {0} is a subspace of V. <br>
   iii. {0} is the only subspace of the vector space {0} over F. <br>
 **4. Examples -II:** <br>
-	W1={(x, 0, 0, …0) ∈ R<sup>n</sup> : x ∈ R} is a subspace of the vector space R<sup>n</sup> over R. <br>
-	W2={(x, x, 0) ∈ R<sup>3</sup> : x ∈ R} is a subspace of the vector space R<sup>3</sup> over R. <br>
-	W3={(x, x, x) ∈ R<sup>3</sup> : x ∈ R} is  a subspace of the vector space R<sup>3</sup> over R. <br>
-	W4={(x+2, x, x) ∈ R<sup>3</sup> : x ∈ R} is not a subspace of the vector space R<sup>3</sup> over R, since it does not contains (0, 0, 0) which is the zero of the vector space R<sup>3</sup> over R . <br> 
+	W<sub>1</sub>={(x, 0, 0, …0) ∈ R<sup>n</sup> : x ∈ R} is a subspace of the vector space R<sup>n</sup> over R. <br> 
+ 	Reason: Clearly W<sub>1</sub>&#8838;R<sup>n</sup> and (0, 0, 0…, 0)&isin; W<sub>1</sub>. Further,  (x, 0, 0, …0)+ (y, 0, 0, …, 0)=(x+y, 0, 0, …, 		0)&isin;W<sub>1</sub>; where (x, 0, 0, …, 0) &isin;W<sub>1</sub>, (y, 0, 0, …, 0)&isin;W<sub>1</sub>  and α.(x, 0, 0, …, 0)=(α.x, 0, 0, …, 			0)&isin;W<sub>1</sub>; where (x, 0, 0, …, 0)&isin;W<sub>1</sub>, α&isin;F. Using the characterization given in Section2, we have the required result. <br>
+	W<sub>2</sub>={(x, x, 0) ∈ R<sup>3</sup> : x ∈ R} is a subspace of the vector space R<sup>3</sup> over R. <br>
+ 	Reason: It is the same as discussed in Example(i) above. <br>
+	W<sub>3</sub>={(x, x, x) ∈ R<sup>3</sup> : x ∈ R} is  a subspace of the vector space R<sup>3</sup> over R. <br>
+	Reason: It is the same as discussed in Example(i) above. <br>
 	Let M<sub>2 x 2</sub> be the collection of 2x2 matrices with real entries. Then M<sub>2 x 2</sub> forms a vector space over R with respect to matrix addition and matrix scalar multiplication and 
-W<sub>5</sub>={ $\left[\begin{array}{ccc}
+W<sub>4</sub>={ $\left[\begin{array}{ccc}
 a & b\\
 c & 0
 \end{array}\right]$ ∈ M<sub>2 x 2</sub>: a, b, c ∈ R} is a subspace of the vector space M<sub>2 x 2</sub>. <br>
+Reason: It is the same as discussed in Example(i) above. <br>
+W<sub>5</sub>={(x+2, x, x) ∈ R<sup>3</sup> : x ∈ R} is not a subspace of the vector space R<sup>3</sup> over R in view of Section 2. it does not contains (0, 0, 0) which is the zero of the vector space R<sup>3</sup> over R . <br> 
+ 	Thus it may be noted that a subset of a vector space need not to be its subspace. <br>
 **5. Definitions:** The subspaces V and {0} of V are called improper subspaces of V and subspaces other than V and {0} are called proper. <br> 
 **6. Subspaces of R:** Subspaces of the vector space R over R are {0} and R only. That is, <br> 
 (i)   W ≡ {0} is a subspace of the vector space R over R, <br>

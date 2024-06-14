@@ -12,7 +12,8 @@
 			<h2 class="subhead">Vector Space V &equiv; M<sub>2x2</sub> over R (Standard Operations), where M<sub>2x2</sub> is the collection of 2x2 real matrices</h2>
 			<div class="responsive-two-column-grid">
 				<div class="text">
-					<h3>(i) W = {<td rowspan="2">
+					<h3 class="exph3">Example I</h3>
+					<h4>(i) W = {<td rowspan="2">
 			        <math>
 			          <mrow>
 			            <mo>(</mo>
@@ -37,7 +38,7 @@
 			            <mo>)</mo>
 			          </mrow>
 			        </math>
-	      		</td> : a , b &isin; R}  is a subspace of V.</h3>
+	      		</td> : a , b &isin; R}  is a subspace of V.</h4>
 					
 
 	      	<h4 class="justify">JUSTIFICATION : </h4>
@@ -58,12 +59,12 @@
 		      		<label>Enter:</label><br>
 						  <label for="a_val">a:</label>
 						  <input type="text" id="a_val" name="a_val">
-						  <label for="b_val">b:</label>
+						  <!-- <label for="d_val">d:</label> -->
+						  <input type="text" id="d_val" name="d_val" value="0" style="display: none;"><br><br>
+						  <!-- <label for="c_val">c:</label> -->
+						  <input type="text" id="c_val" name="c_val" value="0" style="display: none;">
+						  <label for="b_val">b:</label>          
 						  <input type="text" id="b_val" name="b_val"><br><br>
-						  <label for="c_val">c:</label>
-						  <input type="text" id="c_val" name="c_val">
-						  <label for="d_val">d:</label>          
-						  <input type="text" id="d_val" name="d_val"><br><br>
 						  <label for="al_val">&alpha;:</label>
 		  				<input type="text" id="al_val" name="al_val"><br><br>
 						  <button id="btn" type="button" onclick="showmatrix();">Submit</button>
@@ -87,7 +88,8 @@
 			<hr style="background: transparent;">
 			<div class="responsive-two-column-grid">
 				<div class="text">
-				<h3>(ii) W = {2x2 real matrices with integer entries} is not a subspace of V.</h3>
+					<h3 class="exph3">Example II</h3>
+				<h4>(ii) W = {2x2 real matrices with integer entries} is not a subspace of V.</h4>
 
       	<h4 class="justify">JUSTIFICATION : </h4>
 
@@ -133,8 +135,8 @@
 					<p id="displayalA2"></p>
 					<p id="result2"></p>
 
-					
-	
+				
+
 				</div>
 				<div class="imgs">
 					<img src="./images/ssim2.png" alt="img here">
