@@ -10,8 +10,8 @@ Let V be a vector space over a field F≡R or C, where R is the set of real numb
   ii.	 {0} is a subspace of V. <br>
   iii. {0} is the only subspace of the vector space {0} over F. <br>
 **4. Examples -II:** <br>
-	W<sub>1</sub>={(x, 0, 0, …0) ∈ R<sup>n</sup> : x ∈ R} is a subspace of the vector space R<sup>n</sup> over R. <br> 
- 	Reason: Clearly W<sub>1</sub>&#8838;R<sup>n</sup> and (0, 0, 0…, 0)&isin; W<sub>1</sub>. Further,  (x, 0, 0, …0)+ (y, 0, 0, …, 0)=(x+y, 0, 0, …, 		0)&isin;W<sub>1</sub>; where (x, 0, 0, …, 0) &isin;W<sub>1</sub>, (y, 0, 0, …, 0)&isin;W<sub>1</sub>  and α.(x, 0, 0, …, 0)=(α.x, 0, 0, …, 			0)&isin;W<sub>1</sub>; where (x, 0, 0, …, 0)&isin;W<sub>1</sub>, α&isin;F. Using the characterization given in Section2, we have the required result. <br>
+	W<sub>1</sub>={(x, 0, 0, …, 0) ∈ R<sup>n</sup> : x ∈ R} is a subspace of the vector space R<sup>n</sup> over R. <br> 
+ 	Reason: Clearly W<sub>1</sub>&#8838;R<sup>n</sup> and (0, 0, 0…, 0)&isin; W<sub>1</sub>. Further,  (x, 0, 0, …, 0)+ (y, 0, 0, …, 0)=(x+y, 0, 0, …, 		0)&isin;W<sub>1</sub>; where (x, 0, 0, …, 0) &isin;W<sub>1</sub>, (y, 0, 0, …, 0)&isin;W<sub>1</sub>  and α.(x, 0, 0, …, 0)=(α.x, 0, 0, …, 			0)&isin;W<sub>1</sub>; where (x, 0, 0, …, 0)&isin;W<sub>1</sub>, α&isin;F. Using the characterization given in Section2, we have the required result. <br>
 	W<sub>2</sub>={(x, x, 0) ∈ R<sup>3</sup> : x ∈ R} is a subspace of the vector space R<sup>3</sup> over R. <br>
  	Reason: It is the same as discussed in Example(i) above. <br>
 	W<sub>3</sub>={(x, x, x) ∈ R<sup>3</sup> : x ∈ R} is  a subspace of the vector space R<sup>3</sup> over R. <br>
