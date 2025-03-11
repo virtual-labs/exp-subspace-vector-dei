@@ -83,3 +83,20 @@
 		  background-color: #ada;
 		  color: black;
 		}
+
+		.next{
+		    background-color: #04AA6D;
+		    color: white;
+		    font-size: 18px;
+		    margin-top: 0.5rem;
+		    align-content: center;
+		    text-align: center;
+		    padding: 8px 16px;
+		    text-decoration: none;
+		    width:8rem;
+		    float:right;
+		}
+		.next:hover {
+		  background-color: #ada;
+		  color: black;
+		}
