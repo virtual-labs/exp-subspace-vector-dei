@@ -7,7 +7,14 @@
 		<link rel="stylesheet" type="text/css" href="css/style2.css">
 	</head>
 	<body>
+
+		<p style="float: center; align-content:right;">
+			<a href="./" class="previous">&laquo; Previous</a>
+		</p>
+	<br><br>
+
 		<h1 class="head">SUBSPACES</h1>
+
 		<div class="ssmatrices">
 			<h2 class="subhead">Vector Space V &equiv; M<sub>2x2</sub> over R (Standard Operations), where M<sub>2x2</sub> is the collection of 2x2 real matrices</h2>
 			<div class="responsive-two-column-grid">
@@ -39,7 +46,34 @@
 			          </mrow>
 			        </math>
 	      		</td> : a , b &isin; R}  is a subspace of V.</h4>
-					
+			
+
+		
+				  <h4 class="justify">CAUTION : </h4>
+
+				  <input id="btn" type="submit" onclick="showform();" value="Choose matrices">
+			<div id="showform" style = "display:none;">
+				<form id="matval" action="?" method="POST">
+					<label>Enter:</label><br>
+						<label for="a_val">a:</label>
+						<input type="text" id="a_val" name="a_val">
+						<!-- <label for="d_val">d:</label> -->
+						<input type="text" id="d_val" name="d_val" value="0" style="display: none;"><br><br>
+						<!-- <label for="c_val">c:</label> -->
+						<input type="text" id="c_val" name="c_val" value="0" style="display: none;">
+						<label for="b_val">b:</label>          
+						<input type="text" id="b_val" name="b_val"><br><br>
+						<label for="al_val">&alpha;:</label>
+						<input type="text" id="al_val" name="al_val"><br><br>
+						<button id="btn" type="button" onclick="showmatrix();">Submit</button>
+					  </form>
+				  </div>
+
+				  <p id="displayA"></p>
+				  <p id="displayB"></p>
+				  <p id="displayApB"></p>
+				  <p id="displayalA"></p>
+				  <p id="result"></p>
 
 	      	<h4 class="justify">JUSTIFICATION : </h4>
 
@@ -50,35 +84,7 @@
 					<p id="showApB"></p><p id="showalA"></p><p id="showz"></p>
 					<button id="btn" type="button" onclick="showres();">Conclusion</button>
 					<p id="showres"></p>
-
-					<h4 class="justify">CAUTION : </h4>
-
-					<input id="btn" type="submit" onclick="showform();" value="Choose matrices">
-	      	<div id="showform" style = "display:none;">
-		      	<form id="matval" action="?" method="POST">
-		      		<label>Enter:</label><br>
-						  <label for="a_val">a:</label>
-						  <input type="text" id="a_val" name="a_val">
-						  <!-- <label for="d_val">d:</label> -->
-						  <input type="text" id="d_val" name="d_val" value="0" style="display: none;"><br><br>
-						  <!-- <label for="c_val">c:</label> -->
-						  <input type="text" id="c_val" name="c_val" value="0" style="display: none;">
-						  <label for="b_val">b:</label>          
-						  <input type="text" id="b_val" name="b_val"><br><br>
-						  <label for="al_val">&alpha;:</label>
-		  				<input type="text" id="al_val" name="al_val"><br><br>
-						  <button id="btn" type="button" onclick="showmatrix();">Submit</button>
-						</form>
-					</div>
-
-					<p id="displayA"></p>
-					<p id="displayB"></p>
-					<p id="displayApB"></p>
-					<p id="displayalA"></p>
-					<p id="result"></p>
-
-					
-				  
+									  
 				</div>
 
 				<div class="imgs">
@@ -91,15 +97,7 @@
 					<h3 class="exph3">Example II</h3>
 				<h4>(ii) W = {2x2 real matrices with integer entries} is not a subspace of V.</h4>
 
-      	<h4 class="justify">JUSTIFICATION : </h4>
 
-					<button id="btn" type="button" onclick="showABal2();">Let</button>
-					<p> <span id="showA2"></span> <span id="showB2"></span> <span id="showal2"></span></p>
-					
-					<button id="btn" type="button" onclick="showjst2();">Then</button>
-					<p id="showApB2"></p><p id="showalA2"></p><p id="showz2"></p>
-					<button id="btn" type="button" onclick="showres2();">Conclusion</button>
-					<p id="showres2"></p>
 
 				<h4 class="justify">CAUTION : </h4>
 				<input id="btn" type="submit" onclick="showform2();" value="Choose matrices">
@@ -134,6 +132,18 @@
 					<p id="displayApB2"></p>
 					<p id="displayalA2"></p>
 					<p id="result2"></p>
+
+      	<h4 class="justify">JUSTIFICATION : </h4>
+
+					<button id="btn" type="button" onclick="showABal2();">Let</button>
+					<p> <span id="showA2"></span> <span id="showB2"></span> <span id="showal2"></span></p>
+					
+					<button id="btn" type="button" onclick="showjst2();">Then</button>
+					<p id="showApB2"></p><p id="showalA2"></p><p id="showz2"></p>
+					<button id="btn" type="button" onclick="showres2();">Conclusion</button>
+					<p id="showres2"></p>
+
+				
 
 				
 
