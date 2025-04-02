@@ -7,7 +7,7 @@
         "a": "0 ϵ R",
         "b": "(1, 0) ϵ R<sup>2</sup>",
         "c": "(0, 1) ϵ R<sup>2</sup>",
-        "d": "None"
+        "d": "(0, 0)"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -24,7 +24,7 @@
         "a": "(-1).X",
         "b": "X<sup>-1</sup>",
         "c": "Zero matrix",
-        "d": "Does not exist"
+        "d": "X"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
