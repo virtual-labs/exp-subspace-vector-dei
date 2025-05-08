@@ -19,12 +19,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Consider the vector space R<sup>2</sup> over R. Then which of the following are subspaces of R<sup>2</sup>?<br>i. {(x, y) ϵ R<sup>2</sup> : x<sup>2</sup> + y<sup>2</sup> = 0}<br>ii. {(x, y) ϵ R<sup>2</sup> : x.y>0}<br>iii. {(x, y) ϵ R<sup>2</sup> : x>0, y<0}",
+      "question": "Consider the vector space R<sup>2</sup> over R. Then which of the following are subspaces of R<sup>2</sup>?<br>i. {(x, y) ϵ R<sup>2</sup> : x<sup>2</sup> + y<sup>2</sup> = 0}<br>ii. {(x, y) ϵ R<sup>2</sup> : x.y>0}<br>iii. {(x, y) ϵ R<sup>2</sup> : x>0, y>0}",
       "answers": {
         "a": "Only (i)",
         "b": "Only (i) & (iii)",
         "c": "(i), (ii) & (iii)",
-        "d": "None"
+        "d": "Only (iii)"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
