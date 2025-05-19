@@ -1,6 +1,6 @@
 Let V be a vector space over a field F≡R or C, where R is the set of real numbers and C is the set of complex numbers.<br>
 **1. Definition:** A non-empty subset W of V is called a subspace if it is a vector space with respect to the addition and scalar multiplication defined on V.<br>
-![Definition](images/exp2newimage1.PNG "Definition")<br>
+![Definition](images/exp2newimage1.1.PNG "Definition")<br>
 **2. Characterization:** A set W is a subspace of V if and only if <br>
   i.   W ⊆ V <br>
   ii.  0 ∈ W <br>
