@@ -24,7 +24,7 @@
         "a": "Only (i)",
         "b": "Only (i) & (iii)",
         "c": "(i), (ii) & (iii)",
-        "d": "None"
+        "d": "Only (iii)"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -58,7 +58,7 @@
         "a": "Only (i) & (ii)",
         "b": "Only (ii) & (iii)",
         "c": "(i), (ii) & (iii)",
-        "d": "Only (iii)"
+        "d": "Only (ii)"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -75,7 +75,7 @@
         "a": "Only (i)",
         "b": "Only (ii)",
         "c": "Both (i) & (ii)",
-        "d": "None"
+        "d": "Neither (i) nor (ii)"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
