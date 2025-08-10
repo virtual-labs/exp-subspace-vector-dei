@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+This experiment deals with the notion of subspace of a vector space. It is explained through schematics and interactive simulation.
 
 <b>Name of Developer | <b> Prof. Gunjan Agrawal 
 :--|:--|
