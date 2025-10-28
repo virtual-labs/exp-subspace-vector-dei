@@ -87,12 +87,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "For what values α, β ϵ R <br>(α + β , α - β) = 3(2 , 4)",
+      "question": "For what values $α, β ϵ R$ <br>$(α + β , α - β) = 3(2 , 4)$",
       "answers": {
-        "a": "α = 9 , β = 3",
-        "b": "α = -6 , β = -3",
-        "c": "α = 9 , β = -3",
-        "d": "α = -6 , β = 0"
+        "a": "$α = 9 , β = 3$",
+        "b": "$α = -6 , β = -3$",
+        "c": "$α = 9 , β = -3$",
+        "d": "$α = -6 , β = 0$"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
