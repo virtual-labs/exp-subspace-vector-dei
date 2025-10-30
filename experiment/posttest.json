@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Consider the vector space $R$<sup>2</sup> over $R$. Then which of the following are subspaces of $R$<sup>2</sup>?<br>i. $y=x$<br>ii. $xy$=0<br>iii. $x$<sup>2</sup>+$y$<sup>2</sup>=9<br>iv. $y=x$<sup>2</sup>",
+      "question": "Consider the vector space $R$<sup>2</sup> over $R$. Then which of the following are subspaces of $R$<sup>2</sup>?<br>i. $y=x$<br>ii. $x y$=0<br>iii. $x$<sup>2</sup>+$y$<sup>2</sup>=9<br>iv. $y=x$<sup>2</sup>",
       "answers": {
         "a": "Only (i) & (iii)",
         "b": "Only (i)",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Consider the vector space $R$<sup>2</sup> over $R$. Then which of the following are subspaces of $R$<sup>2</sup>?<br>i. {$(x, y) ϵ R$<sup>2</sup> : $x$<sup>2</sup> + $y$<sup>2</sup> = 0}<br>ii. {$(x, y) ϵ R$<sup>2</sup> : $x.y$>0}<br>iii. {$(x, y) ϵ R$<sup>2</sup> : $x$>0, $y$<0}",
+      "question": "Consider the vector space $R$<sup>2</sup> over $R$. Then which of the following are subspaces of $R$<sup>2</sup>?<br>i. {$(x, y)$ ϵ $R$<sup>2</sup> : $x$<sup>2</sup> + $y$<sup>2</sup> = 0}<br>ii. {$(x, y)$ ϵ $R$<sup>2</sup> : $x.y$>0}<br>iii. {$(x, y)$ ϵ $R$<sup>2</sup> : $x$>0, $y$<0}",
       "answers": {
         "a": "Only (i)",
         "b": "Only (i) & (iii)",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following are subspaces of the vector space $R$<sup>3</sup> over $R$ ?<br>i. $W1$={$(2x, 3y+z, 4) : x, y, z ϵ R$}<br>ii. $W$2={$(2x, 1, 2) : x ϵ R$}<br>iii. $W3$={$(y, z, x) : x, y, z ϵ R$}",
+      "question": "Which of the following are subspaces of the vector space $R$<sup>3</sup> over $R$ ?<br>i. $W1$={$(2x, 3y+z, 4) : x, y, z$ ϵ $R$}<br>ii. $W$2={$(2x, 1, 2) : x$ ϵ $R$}<br>iii. $W3$={$(y, z, x) : x, y, z$ ϵ $R$}",
       "answers": {
         "a": "Only (i) & (ii)",
         "b": "Only (ii) & (iii)",
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Consider the vector space $M$<sub>2 x 2</sub> over $R$. Which of the following is a subspace of $M$<sub>2 x 2</sub>?<br>i. $W1$={$A ϵ M$<sub>2x2</sub> | $det(A) = 0$}<br>ii. $W2$={$A  ϵ M$<sub>2x2</sub> | $a$<sub>12</sub> = $a$<sub>21</sub>}",
+      "question": "Consider the vector space $M$<sub>2 x 2</sub> over $R$. Which of the following is a subspace of $M$<sub>2 x 2</sub>?<br>i. $W1$={$A$ ϵ $M$<sub>2x2</sub> | $det(A) = 0$}<br>ii. $W2$={$A$  ϵ $M$<sub>2x2</sub> | $a$<sub>12</sub> = $a$<sub>21</sub>}",
       "answers": {
         "a": "Only (i)",
         "b": "Only (ii)",
