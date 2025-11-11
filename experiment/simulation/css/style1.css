@@ -1,9 +1,7 @@
 
-	*{
-		margin: 0;
-		padding: 1vw;
-	}
-
+*{
+	font-family: 'Times New Roman', Times, serif;
+}
 	.head{
 		text-align: center;
 		background-color: #e6b0aa;
@@ -23,6 +21,8 @@
 
 	.responsive-three-column-grid {
     	display:block;
+		margin: 1rem;
+		padding: 0rem;
     	
 	}
 
