@@ -1,10 +1,10 @@
-Let V be a vector space over a field F≡R or C, where R is the set of real numbers and C is the set of complex numbers.<br>
-**1. Definition:** A non-empty subset W of V is called a subspace if it is a vector space with respect to the addition and scalar multiplication defined on V.<br>
+Let <i>V</i> be a vector space over a field <i>F</i>≡<i>R</i> or <i>C</i>, where <i>R</i> is the set of real numbers and <i>C</i> is the set of complex numbers.<br>
+**1. Definition:** A non-empty subset <i>W</i> of <i>V</i> is called a subspace if it is a vector space with respect to the addition and scalar multiplication defined on <i>V</i>.<br>
 ![Definition](images/exp2newimage1.1.PNG "Definition")<br>
-**2. Characterization:** A set W is a subspace of V if and only if <br>
-  i.   W ⊆ V <br>
-  ii.  0 ∈ W <br>
-  iii. x + y ∈ W; where x ∈ W , y ∈ W and <br>
+**2. Characterization:** A set <i>W</i> is a subspace of <i>V</i> if and only if <br>
+  i.   <i>W</i> ⊆ <i>V</i> <br>
+  ii.  0 ∈ <i>W</i> <br>
+  iii. <i>x</i> + <i>y</i> ∈ <i>W</i>; where <i>x</i> ∈ <i>W</i> , <i>y</i> ∈ W and <br>
   iv.  α . x ∈ W; where x ∈ W , α ∈ F <br>
 ![Characterization](images/exp2newimage2.PNG "Characterization")<br>
 **3. Examples - I:** <br>
