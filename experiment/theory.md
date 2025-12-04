@@ -1,18 +1,18 @@
-Let <i>V</i> be a vector space over a field <i>F</i>≡<i>R</i> or <i>C</i>, where <i>R</i> is the set of real numbers and <i>C</i> is the set of complex numbers.<br>
+This experiment is designed to help students understand the concept of subspaces within a vector space, a foundational idea in linear algebra. By exploring subspaces of <i>R</i><sup>n</sup> (<i>n</i>-dimensional real vector space), students will learn how certain subsets of vectors, such as lines and planes through the origin, can themselves forms a vector spaces under the same operations of addition and scalar multiplication. The experiment also emphasizes visualization to help build intuition about the structure and properties of subspaces in higher dimensions. Let <i>V</i> be a vector space over a field <i>F</i>≡<i>R</i> or <i>C</i>, where <i>R</i> is the set of real numbers and <i>C</i> is the set of complex numbers.<br>
 **1. Definition:** A non-empty subset <i>W</i> of <i>V</i> is called a subspace if it is a vector space with respect to the addition and scalar multiplication defined on <i>V</i>.<br>
 ![Definition](images/exp2newimage1.1.PNG "Definition")<br>
 **2. Characterization:** A set <i>W</i> is a subspace of <i>V</i> if and only if <br>
-  i.   <i>W</i> ⊆ <i>V</i> <br>
-  ii.  0 ∈ <i>W</i> <br>
-  iii. <i>x</i> + <i>y</i> ∈ <i>W</i>; where <i>x</i> ∈ <i>W</i> , <i>y</i> ∈ W and <br>
-  iv.  α . x ∈ W; where x ∈ W , α ∈ F <br>
+  i.   <i>W</i>⊆<i>V</i> <br>
+  ii.  0∈<i>W</i> <br>
+  iii. <i>x</i>+<i>y</i>∈<i>W</i>; where <i>x</i>∈<i>W</i>, <i>y</i>∈<i>W</i> and <br>
+  iv.  <i>α</i>.<i>x</i>∈<i>W</i>; where <i>x</i>∈<i>W</i>, <i>α</i>∈<i>F</i> <br>
 ![Characterization](images/exp2newimage2.PNG "Characterization")<br>
 **3. Example - I:** <br>
-  i.	 Every vector space V is a subspace of itself. <br>
-  ii.	 {0} is a subspace of V. <br>
-  iii. {0} is the only subspace of the vector space {0} over F. <br>
+  i.	 Every vector space <i>V</i> is a subspace of itself. <br>
+  ii.	 {0} is a subspace of <i>V</i>. <br>
+  iii. {0} is the only subspace of the vector space {0} over <i>F</i>. <br>
 **4. Example -II:** <br>
-	W<sub>1</sub>={(x, 0, 0, …, 0) ∈ R<sup>n</sup> : x ∈ R} is a subspace of the vector space R<sup>n</sup> over R. <br> 
+	<i>W</i><sub>1</sub>={(<i>x</i>, 0, 0, …, 0)∈<i>R</i><sup>n</sup>:<i>x</i>∈<i>R</i>} is a subspace of the vector space <i>R</i><sup>n</sup> over <i>R</i>. <br> 
  	Reason: Clearly W<sub>1</sub>&#8838;R<sup>n</sup> and (0, 0, 0…, 0)&isin; W<sub>1</sub>. Further,  (x, 0, 0, …, 0)+ (y, 0, 0, …, 0)=(x+y, 0, 0, …, 		0)&isin;W<sub>1</sub>; where (x, 0, 0, …, 0) &isin;W<sub>1</sub>, (y, 0, 0, …, 0)&isin;W<sub>1</sub>  and α.(x, 0, 0, …, 0)=(α.x, 0, 0, …, 			0)&isin;W<sub>1</sub>; where (x, 0, 0, …, 0)&isin;W<sub>1</sub>, α&isin;F. Using the characterization given in Section2, we have the required result. <br>
 	W<sub>2</sub>={(x, x, 0) ∈ R<sup>3</sup> : x ∈ R} is a subspace of the vector space R<sup>3</sup> over R. <br>
  	Reason: It is the same as discussed in Example(i) above. <br>
