@@ -12,19 +12,19 @@ This experiment is designed to help students understand the concept of subspaces
   ii.	 {0} is a subspace of <i>V</i>. <br>
   iii. {0} is the only subspace of the vector space {0} over <i>F</i>. <br>
 **4. Example -II:** <br>
-	<i>W</i><sub>1</sub>={(<i>x</i>, 0, 0, …, 0)∈<i>R</i><sup><i>n</i></sup>:<i>x</i>∈<i>R</i>} is a subspace of the vector space <i>R</i><sup><i>n</i></sup> over <i>R</i>. <br> 
- 	Reason: Clearly <i>W</i><sub>1</sub>&#8838; <i>R</i><sup><i>n</i></sup> and (0, 0, 0…, 0)&isin;<i>W</i><sub>1</sub>. Further,  (<i>x</i>, 0, 0, …, 0)+ (<i>y</i>, 0, 0, …, 0)=(<i>x+y</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>; where (<i>x</i>, 0, 0, …, 0) &isin;<i>W</i><sub>1</sub>, (<i>y</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>  and <i>α</i>.(<i>x</i>, 0, 0, …, 0)=(<i>α.x</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>; where (<i>x</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>, <i>α</i>&isin;<i>F</i>. Using the characterization given in Section2, we have the required result. <br>
-	<i>W</i><sub>2</sub>={(<i>x</i>, <i>x</i>, 0)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i>. <br>
- 	Reason: It is the same as discussed in Example(i) above. <br>
-	<i>W</i><sub>3</sub>={(<i>x, x, x) ∈ R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is  a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i>. <br>
-	Reason: It is the same as discussed in Example(i) above. <br>
-	Let <i>M</i><sup>2 x 2</sup> be the collection of 2x2 matrices with real entries. Then <i>M</i><sup>2 x 2</sup> forms a vector space over <i>R</i> with respect to matrix addition and matrix scalar multiplication and 
+(i) <i>W</i><sub>1</sub>={(<i>x</i>, 0, 0, …, 0)∈<i>R</i><sup><i>n</i></sup>: <i>x</i>∈<i>R</i>} is a subspace of the vector space <i>R</i><sup><i>n</i></sup> over <i>R</i>. <br> 
+Reason: Clearly <i>W</i><sub>1</sub>&#8838; <i>R</i><sup><i>n</i></sup> and (0, 0, 0…, 0)&isin;<i>W</i><sub>1</sub>. Further,  (<i>x</i>, 0, 0, …, 0)+ (<i>y</i>, 0, 0, …, 0)=(<i>x+y</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>; where (<i>x</i>, 0, 0, …, 0) &isin;<i>W</i><sub>1</sub>, (<i>y</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>  and <i>α</i>.(<i>x</i>, 0, 0, …, 0)=(<i>α.x</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>; where (<i>x</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>, <i>α</i>&isin;<i>F</i>. Using the characterization given in Section2, we have the required result. <br>
+(ii) <i>W</i><sub>2</sub>={(<i>x</i>, <i>x</i>, 0)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i>. <br>
+Reason: It is the same as discussed in Example(i) above. <br>
+(iii) <i>W</i><sub>3</sub>={(<i>x, x, x) ∈ R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is  a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i>. <br>
+Reason: It is the same as discussed in Example(i) above. <br>
+(iv) Let <i>M</i><sup>2 x 2</sup> be the collection of 2x2 matrices with real entries. Then <i>M</i><sup>2 x 2</sup> forms a vector space over <i>R</i> with respect to matrix addition and matrix scalar multiplication and 
 W<sub>4</sub>={ $\left[\begin{array}{ccc}
 a & b\\
 c & 0
 \end{array}\right]$ ∈ <i>M</i><sup>2 x 2</sup>: <i>a, b, c</i> ∈<i>R</i>} is a subspace of the vector space <i>M</i><sup>2 x 2</sup>. <br>
 Reason: It is the same as discussed in Example(i) above. <br>
-<i>W</i><sub>5</sub>={(<i>x+2, x, x</i>)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is not a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i> in view of Section 2. it does not contains (0, 0, 0) which is the zero of the vector space <i>R</i><sup>3</sup> over <i>R</i> . <br> 
+(v) <i>W</i><sub>5</sub>={(<i>x+2, x, x</i>)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is not a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i> in view of Section 2. it does not contains (0, 0, 0) which is the zero of the vector space <i>R</i><sup>3</sup> over <i>R</i> . <br> 
  	Thus it may be noted that a subset of a vector space need not to be its subspace. <br>
 **5. Definition:** The subspaces <i>V</i> and {0} of <i>V</i> are called improper subspaces of <i>V</i> and subspaces other than <i>V</i> and {0} are called proper. <br> 
 **6. Subspaces of <i>R</i>:** Subspaces of the vector space <i>R</i> over <i>R</i> are {0} and <i>R</i> only. That is, <br> 
