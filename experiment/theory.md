@@ -23,7 +23,7 @@ Reason: It is the same as discussed in Example(i) above. <br>
 (iii) <i>W</i><sub>3</sub>={(<i>x, x, x) ∈ R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is  a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i>. <br>
 Reason: It is the same as discussed in Example(i) above. <br>
 (iv) Let <i>M</i><sup>2 x 2</sup> be the collection of 2x2 matrices with real entries. Then <i>M</i><sup>2 x 2</sup> forms a vector space over <i>R</i> with respect to matrix addition and matrix scalar multiplication and 
-<i>W</i><sub>4</sub> = { $ \begin{bmatrix} a & b \\ c & 0 \end{bmatrix} $ }∈ <i>M</i><sup>2 x 2</sup>: <i>a, b, c</i> ∈<i>R</i>} is a subspace of the vector space <i>M</i><sup>2 x 2</sup>. <br>
+<i>W</i><sub>4</sub> = { $ \begin{bmatrix} a & b \\ c & 0 \end{bmatrix} $ ∈ <i>M</i><sup>2 x 2</sup>: <i>a, b, c</i> ∈<i>R</i>} is a subspace of the vector space <i>M</i><sup>2 x 2</sup>. <br>
 Reason: It is the same as discussed in Example(i) above. <br>
 (v) <i>W</i><sub>5</sub>={(<i>x+2, x, x</i>)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is not a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i> in view of Section 2. it does not contains (0, 0, 0) which is the zero of the vector space <i>R</i><sup>3</sup> over <i>R</i> . <br> 
  	Thus it may be noted that a subset of a vector space need not to be its subspace. <br>
