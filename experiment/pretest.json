@@ -4,10 +4,10 @@
         {
             "question": "Consider the vector space $R$<sup>2</sup> over $R$. Its zero is",
             "answers": {
-                "a": "0 ϵ $R$",
-                "b": "(1, 0) ϵ $R$<sup>2</sup>",
-                "c": "(0, 1) ϵ $R$<sup>2</sup>",
-                "d": "(0, 0)ϵ $R$<sup>2</sup>"
+                "a": "0 ∈ $R$",
+                "b": "(1, 0) ∈ $R$<sup>2</sup>",
+                "c": "(0, 1) ∈ $R$<sup>2</sup>",
+                "d": "(0, 0)∈ $R$<sup>2</sup>"
             },
             "explanations": {
                 "a": "Incorrect. Follows by definition",
@@ -19,7 +19,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "Consider the vector space $M$<sub>2x2</sub> over $R$. Then additive inverse of $X$ ϵ $M$<sub>2x2</sub>, is",
+            "question": "Consider the vector space $M$<sub>2x2</sub> over $R$. Then additive inverse of $X$ ∈ $M$<sub>2x2</sub>, is",
             "answers": {
                 "a": "$(-1).X$",
                 "b": "$X$<sup>-1</sup>",
@@ -87,7 +87,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "For what values $α, β$ ϵ $R$ <br>$(α + β , α - β) = 3(2 , 4)$",
+            "question": "For what values $α, β$ ∈ $R$ <br>$(α + β , α - β) = 3(2 , 4)$",
             "answers": {
                 "a": "$α = 9 , β = 3$",
                 "b": "$α = -6 , β = -3$",
@@ -104,7 +104,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "For what values $α, β$ ϵ $R$ <br>(2 , 6) = $α(1 , 1) + β(1 , -1)$",
+            "question": "For what values $α, β$ ∈ $R$ <br>(2 , 6) = $α(1 , 1) + β(1 , -1)$",
             "answers": {
                 "a": "$α = 4 , β = -2$",
                 "b": "$α = -4 , β = -2$",
