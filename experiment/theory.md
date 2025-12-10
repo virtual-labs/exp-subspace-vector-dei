@@ -1,5 +1,5 @@
 This experiment is designed to help students understand the concept of a subspace of a vector space, a foundational idea in linear algebra, explaining how certain subsets of vectors, such as lines and planes through the origin in <i>R</i><sup>3</sup>, can themselves form a vector space under the same operations of addition and scalar multiplication as that of the vector space. The experiment emphasizes visualization by exploring subspaces of <i>R</i>, <i>R</i><sup>2</sup> and <i>R</i><sup>3</sup>. This helps build intuition about the structure and properties of subspaces in higher dimensions. <br>
-**Notation**: Vector space over a field <i>F</i>≡<i>R</i> or <i>C</i>  is denoted by <i>V</i>, where <i>R</i> is the set of real numbers and <i>C</i> is the set of complex numbers.<br>
+**Notation**: Vector space over the field <i>F</i>≡<i>R</i> or <i>C</i>  is denoted by <i>V</i>, where <i>R</i> is the set of real numbers and <i>C</i> is the set of complex numbers.<br>
 
 **1. Definition:** A non-empty subset <i>W</i> of <i>V</i> is called a subspace if it is a vector space with respect to the addition and scalar multiplication defined on <i>V</i>.<br>
 ![Definition](images/exp2newimage1.1.PNG "Definition")<br>
