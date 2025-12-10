@@ -5,14 +5,14 @@ function showmatrix() {
 	    let d = document.querySelector("#d_val").value;
 	    let al = document.querySelector("#al_val").value;
 		
-		if(a == "" || b == "" || al == ""){
+		if(a == "" || b == "" || c == "" || d == "" || al == ""){
 			alert("please first enter the values.");
 		}
 		else{
 			
-			document.getElementById("displayA").innerHTML = ("<i>A</i> = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + a + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + b + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>");
+			document.getElementById("displayA").innerHTML = ("<i>A</i> = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>a</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>b</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td> = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + a + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + b + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td> &isin; <i>W</i>");
 
-			document.getElementById("displayB").innerHTML = ("<i>B</i> = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + c + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + d + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>");
+			document.getElementById("displayB").innerHTML = ("<i>B</i> = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>c</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>d</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td> = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + c + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + d + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td> &isin; <i>W</i>");
 	
 			document.getElementById("displayApB").innerHTML = ("<i>A + B</i> = <td rowspan='2'><math><mrow><mo>(</mo><mtable><mtr><mtd><mi>" + Number(Number(a)+Number(c)) + "</mi></mtd><mtd><mi>0</mi></mtd></mtr><mtr><mtd><mi>0</mi></mtd><mtd><mi>" + Number(Number(b)+Number(d)) + "</mi></mtd></mtr></mtable><mo>)</mo></mrow></math></td>  &isin; <i>W</i>");
 	

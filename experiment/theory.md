@@ -1,4 +1,5 @@
-This experiment is designed to help students understand the concept of subspaces within a vector space, a foundational idea in linear algebra. By exploring subspaces of <i>R</i><sup><i>n</i></sup> (<i>n</i>-dimensional real vector space), students will learn how certain subsets of vectors, such as lines and planes through the origin, can themselves forms a vector spaces under the same operations of addition and scalar multiplication. The experiment also emphasizes visualization to help build intuition about the structure and properties of subspaces in higher dimensions. Let <i>V</i> be a vector space over a field <i>F</i>≡<i>R</i> or <i>C</i>, where <i>R</i> is the set of real numbers and <i>C</i> is the set of complex numbers.<br>
+This experiment is designed to help students understand the concept of a subspace of a vector space, a foundational idea in linear algebra, explaining how certain subsets of vectors, such as lines and planes through the origin in <i>R</i><sup>3</sup>, can themselves form a vector space under the same operations of addition and scalar multiplication as that of the vector space. The experiment emphasizes visualization by exploring subspaces of <i>R</i>, <i>R</i><sup>2</sup> and <i>R</i><sup>3</sup>. This helps build intuition about the structure and properties of subspaces in higher dimensions. <br>
+**Notations**: Let <i>V</i> be a vector space over a field <i>F</i>≡<i>R</i> or <i>C</i>, where <i>R</i> is the set of real numbers and <i>C</i> is the set of complex numbers.<br>
 
 **1. Definition:** A non-empty subset <i>W</i> of <i>V</i> is called a subspace if it is a vector space with respect to the addition and scalar multiplication defined on <i>V</i>.<br>
 ![Definition](images/exp2newimage1.1.PNG "Definition")<br>
@@ -20,7 +21,7 @@ This experiment is designed to help students understand the concept of subspaces
 Reason: Clearly <i>W</i><sub>1</sub>&#8838; <i>R</i><sup><i>n</i></sup> and (0, 0, 0…, 0)&isin;<i>W</i><sub>1</sub>. Further,  (<i>x</i>, 0, 0, …, 0)+ (<i>y</i>, 0, 0, …, 0)=(<i>x+y</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>; where (<i>x</i>, 0, 0, …, 0) &isin;<i>W</i><sub>1</sub>, (<i>y</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>  and <i>α</i>.(<i>x</i>, 0, 0, …, 0)=(<i>α.x</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>; where (<i>x</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>, <i>α</i>&isin;<i>F</i>. Using the characterization given in Section2, we have the required result. <br>
 (ii) <i>W</i><sub>2</sub>={(<i>x</i>, <i>x</i>, 0)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i>. <br>
 Reason: It is the same as discussed in Example(i) above. <br>
-(iii) <i>W</i><sub>3</sub>={(<i>x, x, x) ∈ R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is  a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i>. <br>
+(iii) <i>W</i><sub>3</sub>={(<i>x</i>, <i>x, x</i>) ∈ <i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is  a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i>. <br>
 Reason: It is the same as discussed in Example(i) above. <br>
 (iv) Let <i>M</i><sup>2 x 2</sup> be the collection of 2x2 matrices with real entries. Then <i>M</i><sup>2 x 2</sup> forms a vector space over <i>R</i> with respect to matrix addition and matrix scalar multiplication and 
 <i>W</i><sub>4</sub> = { $ \begin{bmatrix} a & b \\ c & 0 \end{bmatrix} $ ∈ <i>M</i><sup>2 x 2</sup>: <i>a, b, c</i> ∈<i>R</i>} is a subspace of the vector space <i>M</i><sup>2 x 2</sup>. <br>
@@ -59,5 +60,5 @@ i.   Intersection of <i>W</i><sub>1</sub> and <i>W</i><sub>2</sub> that is, <i>W
 ii.  Union of <i>W</i><sub>1</sub> and <i>W</i><sub>2</sub> that is, <i>W</i><sub>1</sub> ⋃ <i>W</i><sub>2</sub>  may or may not be a subspace of <i>V</i>. <br>
 iii. Union of <i>W</i><sub>1</sub> and <i>W</i><sub>2</sub> that is, <i>W</i><sub>1</sub> ⋃ <i>W</i><sub>2</sub>  is a subspace of <i>V</i> if and only if <i>W</i><sub>1</sub> ⊆ <i>W</i><sub>2</sub> or <i>W</i><sub>2</sub> ⊆ <i>W</i><sub>1</sub>. <br>
 iv.  <i>W</i><sub>1</sub> + <i>W</i><sub>2</sub>≡{<i>x</i>+<i>y</i>: <i>x</i>∈<i>W</i><sub>1</sub>, <i>y</i>∈<i>W</i><sub>2</sub>} is a subspace of <i>V</i>. <br>
-v.   W<sub>1</sub> + W<sub>2</sub> = span (W<sub>1</sub> ⋃ W<sub>2</sub>). <br>
-vi.  W<sub>1</sub> + W<sub>2</sub> is the smallest subspace containing W<sub>1</sub> and W<sub>2</sub>. <br>
+v.   <i>W</i><sub>1</sub> + <i>W</i><sub>2</sub> = span (<i>W</i><sub>1</sub> ⋃ <i>W</i><sub>2</sub>). <br>
+vi.  <i>W</i><sub>1</sub> + <i>W</i><sub>2</sub> is the smallest subspace containing <i>W</i><sub>1</sub> and <i>W</i><sub>2</sub>. <br>
