@@ -34,7 +34,7 @@ function ssR(){
 		</div><br><br>
 		<img src='./images/ssr11.png' alt='img here' style='width:15rem;'><br><br>
 
-		(ii) W &equiv;<i>R</i>. is a subspace of <i>R</i>.
+		(ii) <i>W</i> &equiv;<i>R</i>. is a subspace of <i>R</i>.
 		<div id="ssR2_group" style="display:inline-block;">
 			<button onclick="checkAnswer('ssR2', true, this)">True</button> 
 			<button onclick="checkAnswer('ssR2', false, this)">False</button>
@@ -54,14 +54,14 @@ function ssR(){
 
 
 	function r1explanation(){
-		document.getElementById('R1explain1').innerHTML=("<span style='fornt-family:'Times New Roman', Times, serif;'>(i) By definition.<br>(ii) By definition. <br>(iii) Let <i>W</i> be a subspace of <i>R</i>.<br><br><span style='font-weight:bold; color:blue; font-size:15px;'>Step-1. </i>W</i> &ne; {0} : </span><br><br> &emsp;  &exist; <i>a</i> &isin; <i>W</i> ; <i>a</i> &ne; 0 <br> <img src='./images/ssr1sim1.png' alt='img here' style='width:10rem;'></span>");
+		document.getElementById('R1explain1').innerHTML=("<span style='fornt-family:'Times New Roman', Times, serif;'>(i) By definition.<br>(ii) By definition. <br>(iii) Let <i>W</i> be a subspace of <i>R</i>.<br><br><span style='font-weight:bold; color:blue; font-size:15px;'>Step-1. <i>W</i> &ne; {0} : </span><br><br> &emsp;  &exist; <i>a</i> &isin; <i>W</i> ; <i>a</i> &ne; 0 <br> <img src='./images/ssr1sim1.png' alt='img here' style='width:10rem;'></span>");
 		document.getElementById('R1explain2').innerHTML=("<span style='font-weight:bold; color:blue; font-size:15px;'>Step-2.  <i>W</i> &ne; <i>R</i> : </span><br><br><span style='fornt-family:'Times New Roman', Times, serif;'> &emsp; &exist; <i>x</i>  &isin; <i>R</i> ; <i>x</i> &notin; <i>W</i> </span><br> <img src='./images/ssr1sim2.png' alt='img here' style='width:10rem;'>");
 		document.getElementById('R1explain3').innerHTML=("<span style='font-weight:bold; color:blue; font-size:15px;'>Step-3. Contradiction : </span><br><br><span style='fornt-family:'Times New Roman', Times, serif;'>&emsp; <i>x</i> =  <i>x</i> . <span class='frac'><span>1</span><span class='symbol'>/</span><span class='bottom'><i>a</i></span></span> . <i>a</i>  =  <span class='frac'><span><i>x</i></span><span class='symbol'>/</span><span class='bottom'><i>a</i></span></span> . <i>a</i>  &isin;  <i>W</i> </span>");
 	} 
 
 	function ssR2() {
 	document.getElementById('ssR2').innerHTML = `
-		(i) <i>W</i> &equiv; {0} is a subspace of <i>R</i><sup>2</sup>, 0 &equiv; (0, 0)<br><br>
+		(i) <i>W</i> &equiv; {0} is a subspace of <i>R</i><sup>2</sup>, where 0 &equiv; (0, 0) is the origin.<br><br>
 		<div id="ssR2_1_group" style="display:inline-block;">
 			<button onclick="checkAnswer('ssR2_1', true, this)">True</button>
 			<button onclick="checkAnswer('ssR2_1', false, this)">False</button>
@@ -124,7 +124,7 @@ function ssR(){
 
 	function ssR3() {
 	document.getElementById('ssR3').innerHTML = `
-		(i) <i>W</i> &equiv; {0} is a subspace of <i>R</i><sup>3</sup>, 0 &equiv; (0, 0, 0)<br><br>
+		(i) <i>W</i> &equiv; {0} is a subspace of <i>R</i><sup>3</sup>, where 0 &equiv; (0, 0, 0) is the origin. <br><br>
 		<div id="ssR3_1_group" style="display:inline-block;">
 			<button onclick="checkAnswer('ssR3_1', true, this)">True</button>
 			<button onclick="checkAnswer('ssR3_1', false, this)">False</button>
