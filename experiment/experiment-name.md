@@ -1,1 +1,1 @@
-## Subspace of a Vector Space
+## Subspace of a vector space
