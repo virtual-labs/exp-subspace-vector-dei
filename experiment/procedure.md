@@ -1,4 +1,4 @@
-<span style="font-family: 'Times New Roman'; font-size: 24px;">1.	On the first page of simulation, there are three boxes to study the subspace of <i>R</i>, <i>R</i><sup>2</sup> and <i>R</i><sup>3</sup>, user can choose these sequentially or by their choice.<br>
+<span style="font-family: 'Times New Roman'; font-size: 22px;">1.	On the first page of simulation, there are three boxes to study the subspace of <i>R</i>, <i>R</i><sup>2</sup> and <i>R</i><sup>3</sup>, user can choose these sequentially or by their choice.<br>
 2.	In each box, click on either “True” button or “False” button for a given statement. <br>
 3.	In the same box click on the explanation button to see the explanation for the right answer.<br>
 4.	Having gone through the previous steps, user is required to guess the subspaces of <i>R<sup>n</sup></i> for <i>n</i> > 3, as stated on the bottom of the page.<br>
