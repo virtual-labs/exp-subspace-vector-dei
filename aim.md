@@ -1,0 +1,1 @@
+<span style="font-family: 'Times New Roman'; font-size: 22px;">The aim is to understand the notion of subspace of a vector space and to visualize subspaces of the vector space <i>R<sup>n</sup></i> over <i>R</i>, n &isin; <i>N</i>.</span>
