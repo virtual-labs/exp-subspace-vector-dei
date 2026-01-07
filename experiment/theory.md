@@ -16,7 +16,7 @@
   ii.	 {0} is a subspace of <i>V</i>. <br>
   iii. {0} is the only subspace of the vector space {0} over <i>F</i>. </span><br>
   
-**<span style="font-family: 'Times New Roman'; font-size: 22px;">4. Example -II:</span>** <br>
+**<span style="font-family: 'Times New Roman'; font-size: 22px;">4. Example - II:</span>** <br>
 <span style="font-family: 'Times New Roman'; font-size: 22px;"> (i) <i>W</i><sub>1</sub>={(<i>x</i>, 0, 0, …, 0)∈<i>R</i><sup><i>n</i></sup>: <i>x</i>∈<i>R</i>} is a subspace of the vector space <i>R</i><sup><i>n</i></sup> over <i>R</i>. <br> 
 Reason: Clearly <i>W</i><sub>1</sub>&#8838; <i>R</i><sup><i>n</i></sup> and (0, 0, 0…, 0)&isin;<i>W</i><sub>1</sub>. Further,  (<i>x</i>, 0, 0, …, 0)+ (<i>y</i>, 0, 0, …, 0)=(<i>x+y</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>; where (<i>x</i>, 0, 0, …, 0) &isin;<i>W</i><sub>1</sub>, (<i>y</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>  and <i>α</i>.(<i>x</i>, 0, 0, …, 0)=(<i>α.x</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>; where (<i>x</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>, <i>α</i>&isin;<i>F</i>. Using the characterization given in Section2, we have the required result. <br>
 (ii) <i>W</i><sub>2</sub>={(<i>x</i>, <i>x</i>, 0)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i>. <br>
@@ -24,8 +24,8 @@ Reason: It is the same as discussed in Example(i) above. <br>
 (iii) <i>W</i><sub>3</sub>={(<i>x</i>, <i>x, x</i>) ∈ <i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is  a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i>. <br>
 Reason: It is the same as discussed in Example(i) above. <br>
 (iv) Let <i>M</i><sup>2 x 2</sup> be the collection of 2x2 matrices with real entries. Then <i>M</i><sup>2 x 2</sup> forms a vector space over <i>R</i> with respect to matrix addition and matrix scalar multiplication and 
-<i>W</i><sub>4</sub> = { $ \begin{bmatrix} a & b \\ c & 0 \end{bmatrix} $ ∈ <i>M</i><sup>2 x 2</sup>: <i>a, b, c</i> ∈<i>R</i>} is a subspace of the vector space <i>M</i><sup>2 x 2</sup>. <br>
-Reason: It is the same as discussed in Example(i) above. <br>
+<i>W</i><sub>4</sub> = {$ \begin{bmatrix} a & b \\ c & 0 \end{bmatrix} $ ∈ <i>M</i><sup>2 x 2</sup>: <i>a, b, c</i> ∈<i>R</i>} is a subspace of the vector space <i>M</i><sup>2 x 2</sup>. <br>
+Reason: It is the same as discussed in Example (i) above. <br>
 (v) <i>W</i><sub>5</sub>={(<i>x+2, x, x</i>)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is not a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i> in view of Section 2. it does not contains (0, 0, 0) which is the zero of the vector space <i>R</i><sup>3</sup> over <i>R</i> . <br> 
  	Thus it may be noted that a subset of a vector space need not to be its subspace.</span> <br>
   
@@ -53,7 +53,7 @@ Reason: It is the same as discussed in Example(i) above. <br>
 ![Subspaces of R<sup>2</sup>](images/exp2image6.PNG "Subspaces of R<sup>2</sup>")<br>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">(iv)  Let <i>W</i> be a subspace of <i>R</i><sup>2</sup> other than {(0, 0)} and <i>R</i><sup>2</sup>. We prove that <i>W</i> is a line passing through the origin. Let (<i>c, d</i>)∈<i>W</i> such that (<i>c, d</i>) ≠ 0. We claim that <i>W</i> is the line <i>L</i> passing through (<i>c, d</i>) and origin. Then <i>L</i>={(<i>x, y</i>)∈<i>R</i><sup>2</sup> : <i>dx</i>-<i>cy</i>=0}. Clearly <i>L</i>⊆<i>W</i> and we prove that <i>W</i>⊆<i>L</i>. Let (<i>m, n</i>)∈<i>W</i> such that (<i>m, n</i>)≠(0, 0). To the contrary, let (<i>m, n</i>)∉<i>L</i>. For (<i>x, y</i>)∈<i>R</i><sup>2</sup>; one can obtain <i>α, β</i>∈<i>R</i> such that (<i>x, y</i>)=<i>α</i>.(<i>m, n</i>)+<i>β</i>.(<i>c, d</i>). Then (<i>x, y</i>)∈<i>W</i>. Hence <i>W</i>≡<i>R</i><sup>2</sup>, a contradiction. This completes the proof.</span> <br>
 
-**<span style="font-family: 'Times New Roman'; font-size: 22px;">8.Properties of Subspaces:</span>** <br> 
+**<span style="font-family: 'Times New Roman'; font-size: 22px;">8.Properties of subspaces:</span>** <br> 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>W</i><sub>1</sub> and <i>W</i><sub>2</sub> be the subspaces of <i>V</i>. Then,  <br>
 i.   Intersection of <i>W</i><sub>1</sub> and <i>W</i><sub>2</sub> that is, <i>W</i><sub>1</sub> ∩ <i>W</i><sub>2</sub>  is also a subspace of <i>V</i>. <br>
 ![Properties of subspaces](images/exp2newimage3.PNG "Properties of subspaces")<br>
