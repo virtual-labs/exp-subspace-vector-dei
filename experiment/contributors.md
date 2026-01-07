@@ -9,4 +9,4 @@
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | Shinu Pachauri | shinupachouri520@gmail.com  | Department <br>of<br> Mathematics,<br> Faculty of Science | Dayalbagh Educational Institute<br> (Deemed to be University) <br> Dayalbagh, Agra - 282005
 | 2 | A. Gurucharan | gurucharan1027@gmail.com | Department <br>of<br> Mathematics,<br> Faculty of Science | Dayalbagh Educational Institute<br> (Deemed to be University) <br> Dayalbagh, Agra - 282005
-| 3 | Yashi Agrawal <br> May 2023 - March 2024| yashi03902@gmail.com | Department <br>of<br> Mathematics,<br> Faculty of Science | Dayalbagh Educational Institute<br> (Deemed to be University) <br> Dayalbagh, Agra - 282005
+| 3 | Yashi Agrawal <br> (May 2023 - March 2024) | yashi03902@gmail.com | Department <br>of<br> Mathematics,<br> Faculty of Science | Dayalbagh Educational Institute<br> (Deemed to be University) <br> Dayalbagh, Agra - 282005
