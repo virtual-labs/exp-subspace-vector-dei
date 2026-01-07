@@ -10,6 +10,7 @@
 		background: linear-gradient(yellow, lightseagreen);
 		/*background-color: lightseagreen;*/
 		color: black;
+		margin-bottom: 0;
 	}
 		.responsive-two-column-grid {
 		    display:block;
