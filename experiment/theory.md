@@ -8,7 +8,7 @@
   i.   <i>W</i>⊆<i>V</i> <br>
   ii.  0∈<i>W</i> <br>
   iii. <i>x</i>+<i>y</i>∈<i>W</i>; where <i>x</i>∈<i>W</i>, <i>y</i>∈<i>W</i> and <br>
-  iv.  <i>α</i>.<i>x</i>∈<i>W</i>; where <i>x</i>∈<i>W</i>, <i>α</i>∈<i>F</i></span> <br>
+  iv.  <i>α</i>.<i>x</i>∈<i>W</i>; where <i>x</i>∈<i>W</i>, <i>α</i>∈<i>F</i>.</span> <br>
 ![Characterization](images/exp2newimage2.PNG "Characterization")<br>
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">3. Example - I:</span>** <br>
@@ -20,9 +20,9 @@
 <span style="font-family: 'Times New Roman'; font-size: 22px;"> (i) <i>W</i><sub>1</sub>={(<i>x</i>, 0, 0, …, 0)∈<i>R</i><sup><i>n</i></sup>: <i>x</i>∈<i>R</i>} is a subspace of the vector space <i>R</i><sup><i>n</i></sup> over <i>R</i>. <br> 
 Reason: Clearly <i>W</i><sub>1</sub>&#8838; <i>R</i><sup><i>n</i></sup> and (0, 0, 0…, 0)&isin;<i>W</i><sub>1</sub>. Further,  (<i>x</i>, 0, 0, …, 0)+ (<i>y</i>, 0, 0, …, 0)=(<i>x+y</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>; where (<i>x</i>, 0, 0, …, 0) &isin;<i>W</i><sub>1</sub>, (<i>y</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>  and <i>α</i>.(<i>x</i>, 0, 0, …, 0)=(<i>α.x</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>; where (<i>x</i>, 0, 0, …, 0)&isin;<i>W</i><sub>1</sub>, <i>α</i>&isin;<i>F</i>. Using the characterization given in Section2, we have the required result. <br>
 (ii) <i>W</i><sub>2</sub>={(<i>x</i>, <i>x</i>, 0)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i>. <br>
-Reason: It is the same as discussed in Example(i) above. <br>
+Reason: It is the same as discussed in Example (i) above. <br>
 (iii) <i>W</i><sub>3</sub>={(<i>x</i>, <i>x, x</i>) ∈ <i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is  a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i>. <br>
-Reason: It is the same as discussed in Example(i) above. <br>
+Reason: It is the same as discussed in Example (i) above. <br>
 (iv) Let <i>M</i><sup>2 x 2</sup> be the collection of 2x2 matrices with real entries. Then <i>M</i><sup>2 x 2</sup> forms a vector space over <i>R</i> with respect to matrix addition and matrix scalar multiplication and 
 <i>W</i><sub>4</sub> = {$ \begin{bmatrix} a & b \\ c & 0 \end{bmatrix} $ ∈ <i>M</i><sup>2 x 2</sup>: <i>a, b, c</i> ∈<i>R</i>} is a subspace of the vector space <i>M</i><sup>2 x 2</sup>. <br>
 Reason: It is the same as discussed in Example (i) above. <br>
