@@ -1,21 +1,21 @@
 const correctAnswers = {
 	// R
-	ssR1: false,
+	ssR1: true,
 	ssR2: true,
-	ssR3: false,
+	ssR3: true,
 
 	// R2
-	ssR2_1: false,
-	ssR2_2: false,
+	ssR2_1: true,
+	ssR2_2: true,
 	ssR2_3: true,
 	ssR2_4: true,
 
 	// R3 (example values)
-	ssR3_1: false,
-	ssR3_2: false,
+	ssR3_1: true,
+	ssR3_2: true,
 	ssR3_3: true,
-	ssR3_4: false,
-	ssR3_5: false
+	ssR3_4: true,
+	ssR3_5: true
 };
 
 window.onload = function () {
@@ -34,7 +34,7 @@ function ssR(){
 		</div><br><br>
 		<img src='./images/ssr11.png' alt='img here' style='width:15rem;'><br><br>
 
-		(ii) <i>W</i> &equiv;<i>R</i>. is a subspace of <i>R</i>.
+		(ii) <i>W</i> &equiv;<i>R</i> is a subspace of <i>R</i>.
 		<div id="ssR2_group" style="display:inline-block;">
 			<button onclick="checkAnswer('ssR2', true, this)">True</button> 
 			<button onclick="checkAnswer('ssR2', false, this)">False</button>
