@@ -40,11 +40,11 @@ Reason: It is the same as discussed in Example (i) above. <br>
 ![Subspaces of R](images/exp2image5.PNG "Subspaces of R")<br>
 (iii) Let <i>W</i> be a subspace and <i>W</i>≠{0}. We prove that </i>W=R</i>. Clearly <i>W</i>⊆<i>R</i>. Let <i>x</i>∈<i>R</i>. Then for <i>y</i>∈<i>W</i>, <i>y</i>≠0, we have <i>x</i>=(<i>x/y</i>).<i>y</i>. Since (<i>x/y</i>).<i>y</i>∈<i>W</i>, <i>x</i>∈<i>W</i>. This shows that <i>R</i>⊆<i>W</i>. Hence <i>R</i>=<i>W</i>.</span> <br>
 
-**<span style="font-family: 'Times New Roman'; font-size: 22px;">7. Subspaces of <i>R</i><sup>2</sup>:</span>** <span style="font-family: 'Times New Roman'; font-size: 22px;"> Subspaces of the vector space <i>R</i><sup>2</sup> over <i>R</i> are precisely {0}, <i>R</i> and lines passing through origin. That is, <br>
+**<span style="font-family: 'Times New Roman'; font-size: 22px;">7. Subspaces of <i>R</i><sup>2</sup>:</span>** <span style="font-family: 'Times New Roman'; font-size: 22px;"> Subspaces of the vector space <i>R</i><sup>2</sup> over <i>R</i> are precisely {(0, 0)}, <i>R</i> and lines passing through the origin. That is, <br>
 (i)   <i>W</i>≡{(0,0)} is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i>, <br>
 (ii)  <i>W</i>≡<i>R</i><sup>2</sup> is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i>, <br> 
-(iii) If <i>W</i> is a line passing through origin, then <i>W</i> is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i> and <br> 
-(iv)  If <i>W</i> is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i>, then <i>W</i>={0} or <i>R</i><sup>2</sup> or a line passing through origin. <br> 
+(iii) If <i>W</i> is a line passing through the origin, then <i>W</i> is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i> and <br> 
+(iv)  If <i>W</i> is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i>, then <i>W</i>={(0, 0)} or <i>R</i><sup>2</sup> or a line passing through the origin. <br> 
 <b>Proof:</b> <br> 
 (i)   It is similar to that of 5(i). <br>
 (ii)  It is similar to that of 5(ii). <br>
