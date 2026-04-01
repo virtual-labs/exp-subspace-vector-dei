@@ -12,7 +12,7 @@
 ![Characterization](images/exp2newimage2.PNG "Characterization")<br>
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">3. Example - I:</span>** <br>
- <span style="font-family: 'Times New Roman'; font-size: 22px;"> i.	 Every vector space <i>V</i> is a subspace of itself. <br>
+ <span style="font-family: 'Times New Roman'; font-size: 22px;"> i.	 <i>V</i> is a subspace of itself. <br>
   ii.	 {0} is a subspace of <i>V</i>. <br>
   iii. {0} is the only subspace of the vector space {0} over <i>F</i>. </span><br>
   
@@ -26,12 +26,12 @@ Reason: It is the same as discussed in Example (i) above. <br>
 (iv) Let <i>M</i><sup>2 x 2</sup> be the collection of 2x2 matrices with real entries. Then <i>M</i><sup>2 x 2</sup> forms a vector space over <i>R</i> with respect to matrix addition and matrix scalar multiplication and 
 <i>W</i><sub>4</sub> = {$ \begin{bmatrix} a & b \\ c & 0 \end{bmatrix} $ ∈ <i>M</i><sup>2 x 2</sup>: <i>a, b, c</i> ∈<i>R</i>} is a subspace of the vector space <i>M</i><sup>2 x 2</sup>. <br>
 Reason: It is the same as discussed in Example (i) above. <br>
-(v) <i>W</i><sub>5</sub>={(<i>x+2, x, x</i>)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is not a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i> in view of Section 2. it does not contains (0, 0, 0) which is the zero of the vector space <i>R</i><sup>3</sup> over <i>R</i> . <br> 
+(v) <i>W</i><sub>5</sub>={(<i>x+2, x, x</i>)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is not a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i> in view of the result in Section 2, as it does not contain (0, 0, 0) which is the zero of the vector space <i>R</i><sup>3</sup> over <i>R</i> . <br> 
  	Thus it may be noted that a subset of a vector space need not to be its subspace.</span> <br>
   
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">5. Definition:</span>** <span style="font-family: 'Times New Roman'; font-size: 22px;">The subspaces <i>V</i> and {0} of <i>V</i> are called improper subspaces of <i>V</i> and subspaces other than <i>V</i> and {0} are called proper.</span> <br>
 
-**<span style="font-family: 'Times New Roman'; font-size: 22px;">6. Subspaces of <i>R</i>:</span>** <span style="font-family: 'Times New Roman'; font-size: 22px;">Subspaces of the vector space <i>R</i> over <i>R</i> are {0} and <i>R</i> only. That is, <br> 
+**<span style="font-family: 'Times New Roman'; font-size: 22px;">6. Subspaces of <i>R</i>:</span>** <span style="font-family: 'Times New Roman'; font-size: 22px;">Subspaces of the vector space <i>R</i> over <i>R</i> are precisely {0} and <i>R</i>. That is, <br> 
 (i)   <i>W</i>≡{0} is a subspace of the vector space <i>R</i> over <i>R</i>, <br>
 (ii)  <i>W</i>≡<i>R</i> itself is a subspace of the vector space <i>R</i> over <i>R</i> and <br>
 (iii) If <i>W</i> is a subspace of the vector space <i>R</i> over <i>R</i>,  then <i>W</i>={0} or <i>R</i>.  <br>
