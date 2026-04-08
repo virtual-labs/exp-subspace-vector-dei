@@ -95,7 +95,7 @@ function ssR(){
 
 
 	function r2explanation(){
-		document.getElementById('R2explain1').innerHTML=("<span style='fornt-family:'Times New Roman', Times, serif;'>(i) By definition.<br>(ii) By definition. <br>(iii) By definition.<br>(iv). Let <i>W</i> be a subspace of <i>R</i><sup>2</sup>.</span><br><br><span style='font-weight:bold; color:blue; font-size:15px;'>Step-1. <i>W</i> &ne; {0} : </span><br><br><span style='font-family:'Times New Roman', Times, serif;'> &emsp; (<i>a , b</i>) &isin; <i>W</i> such that (<i>a , b</i>) &ne; 0 &equiv; (0 , 0) <br> <img src='./images/ssr2sim1.png' alt='img here' style='width:10rem; height:auto;'></span>");
+		document.getElementById('R2explain1').innerHTML=("<span style='fornt-family:'Times New Roman', Times, serif;'>(i) By definition.<br>(ii) By definition. <br>(iii) By definition.<br>(iv) Let <i>W</i> be a subspace of <i>R</i><sup>2</sup>.</span><br><br><span style='font-weight:bold; color:blue; font-size:15px;'>Step-1. <i>W</i> &ne; {0} : </span><br><br><span style='font-family:'Times New Roman', Times, serif;'> &emsp; (<i>a , b</i>) &isin; <i>W</i> such that (<i>a , b</i>) &ne; 0 &equiv; (0 , 0) <br> <img src='./images/ssr2sim1.png' alt='img here' style='width:10rem; height:auto;'></span>");
 
 		// document.getElementById('R2explain2').innerHTML=("<span style='font-weight:bold; color:blue; font-size:15px;'>Step-2. L &sube; W : </span><br><br> &emsp; L &equiv; line passing through 0 and (a , b) <br> <img src='./images/ssr2sim2.png' alt='img here' style='width:10rem; height:auto;'>");
 
