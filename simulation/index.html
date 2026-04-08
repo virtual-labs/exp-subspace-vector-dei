@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+	<title>Subspaces</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<style>
+	button {
+		margin: 0 5px;
+		padding: 4px 10px;
+		border-radius: 5px;
+		border: 1px solid gray;
+		cursor: pointer;
+	}
+	button:hover {
+		background-color: #eef;
+	}
+   
+
+    .yellow-box {
+      background-color: rgb(255, 255, 149);
+      padding: 20px 40px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      font-family: 'Times New Roman', Times, serif;
+      font-size:25px;
+	  font-weight: 700;
+    }
+
+</style>
+
+
+</head>
+
+<body>
+
+	
+	<div class="sss">
+		<h2 class="subhead">Subspaces of the vector space <i>R<sup>n</sup></i>over <i>R</i></h2>
+
+	</div>
+
+	<p style="float: center; align-content:right;">
+		<a href="./subspacematrices.html" class="next" >Next &raquo;</a>
+		</p>
+    <br><br>
+	<div class="responsive-three-column-grid">
+
+		<div class="column">
+			<a class="btn" onclick="ssR()">Subspaces of <i>R</i></a>
+			<p class="subspaces" id='ssR'></p>
+			<a href="#R1explain" id='ssR1exp' onclick="r1explanation()" style="font-family: sans-serif; font-size: 15px; color: darkblue;">Explanation</a>
+			<p id="R1explain1" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+			<p id="R1explain2" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+			<p id="R1explain3" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+			
+		</div>
+		<div class="column">
+			<a class="btn" onclick="ssR2()">Subspaces of <i>R</i><sup>2</sup></a>
+			<p class="subspaces" id='ssR2'></p>
+			<a href="#R2explain" id='ssR2exp' onclick="r2explanation()" style="font-family: sans-serif; font-size: 15px; color: darkblue;" >Explanation</a>
+			<p id="R2explain1" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+			<p id="R2explain2" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+			<p id="R2explain3" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+			<p id="R2explain4" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+		</div>
+		<div class="column">
+			<a class="btn" onclick="ssR3()">Subspaces of <i>R</i><sup>3</sup></a>
+			<p class="subspaces" id='ssR3'></p>
+			<a href="#R3explain" id='ssR3exp' onclick="r3explanation()" style="font-family: sans-serif; font-size: 15px; color: darkblue;">Explanation</a>
+
+			<p id="R3explain" style="font-family: sans-serif; font-size: 15px; color: darkblue;"></p>
+		</div>
+
+	</div>
+	<div class="yellow-box">
+    <p>Try to determine subspaces of <i>R<sup>n</sup>, n</i> &gt; 3</p>
+  </div>
+	<p style="float: center; align-content:right;">
+	<a href="./subspacematrices.html" class="next" >Next &raquo;</a>
+	</p>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+<script src="js/js1.js"></script>
+
+</html>
