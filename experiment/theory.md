@@ -12,7 +12,7 @@
 ![Characterization](images/exp2newimage2.PNG "Characterization")<br>
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">3. Example - I:</span>** <br>
- <span style="font-family: 'Times New Roman'; font-size: 22px;"> i.	 Every vector space <i>V</i> is a subspace of itself. <br>
+ <span style="font-family: 'Times New Roman'; font-size: 22px;"> i.	 <i>V</i> is a subspace of itself. <br>
   ii.	 {0} is a subspace of <i>V</i>. <br>
   iii. {0} is the only subspace of the vector space {0} over <i>F</i>. </span><br>
   
@@ -26,12 +26,11 @@ Reason: It is the same as discussed in Example (i) above. <br>
 (iv) Let <i>M</i><sup>2 x 2</sup> be the collection of 2x2 matrices with real entries. Then <i>M</i><sup>2 x 2</sup> forms a vector space over <i>R</i> with respect to matrix addition and matrix scalar multiplication and 
 <i>W</i><sub>4</sub> = {$ \begin{bmatrix} a & b \\ c & 0 \end{bmatrix} $ ∈ <i>M</i><sup>2 x 2</sup>: <i>a, b, c</i> ∈<i>R</i>} is a subspace of the vector space <i>M</i><sup>2 x 2</sup>. <br>
 Reason: It is the same as discussed in Example (i) above. <br>
-(v) <i>W</i><sub>5</sub>={(<i>x+2, x, x</i>)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is not a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i> in view of Section 2. it does not contains (0, 0, 0) which is the zero of the vector space <i>R</i><sup>3</sup> over <i>R</i> . <br> 
- 	Thus it may be noted that a subset of a vector space need not to be its subspace.</span> <br>
+(v) <i>W</i><sub>5</sub>={(<i>x+2, x, x</i>)∈<i>R</i><sup>3</sup> : <i>x</i>∈<i>R</i>} is not a subspace of the vector space <i>R</i><sup>3</sup> over <i>R</i> in view of the result in Section 2, as it does not contain (0, 0, 0) which is the zero of the vector space <i>R</i><sup>3</sup> over <i>R</i> .	Thus it may be noted that a subset of a vector space need not to be its subspace.</span> <br>
   
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">5. Definition:</span>** <span style="font-family: 'Times New Roman'; font-size: 22px;">The subspaces <i>V</i> and {0} of <i>V</i> are called improper subspaces of <i>V</i> and subspaces other than <i>V</i> and {0} are called proper.</span> <br>
 
-**<span style="font-family: 'Times New Roman'; font-size: 22px;">6. Subspaces of <i>R</i>:</span>** <span style="font-family: 'Times New Roman'; font-size: 22px;">Subspaces of the vector space <i>R</i> over <i>R</i> are {0} and <i>R</i> only. That is, <br> 
+**<span style="font-family: 'Times New Roman'; font-size: 22px;">6. Subspaces of <i>R</i>:</span>** <span style="font-family: 'Times New Roman'; font-size: 22px;">Subspaces of the vector space <i>R</i> over <i>R</i> are precisely {0} and <i>R</i>. That is, <br> 
 (i)   <i>W</i>≡{0} is a subspace of the vector space <i>R</i> over <i>R</i>, <br>
 (ii)  <i>W</i>≡<i>R</i> itself is a subspace of the vector space <i>R</i> over <i>R</i> and <br>
 (iii) If <i>W</i> is a subspace of the vector space <i>R</i> over <i>R</i>,  then <i>W</i>={0} or <i>R</i>.  <br>
@@ -41,14 +40,14 @@ Reason: It is the same as discussed in Example (i) above. <br>
 ![Subspaces of R](images/exp2image5.PNG "Subspaces of R")<br>
 (iii) Let <i>W</i> be a subspace and <i>W</i>≠{0}. We prove that </i>W=R</i>. Clearly <i>W</i>⊆<i>R</i>. Let <i>x</i>∈<i>R</i>. Then for <i>y</i>∈<i>W</i>, <i>y</i>≠0, we have <i>x</i>=(<i>x/y</i>).<i>y</i>. Since (<i>x/y</i>).<i>y</i>∈<i>W</i>, <i>x</i>∈<i>W</i>. This shows that <i>R</i>⊆<i>W</i>. Hence <i>R</i>=<i>W</i>.</span> <br>
 
-**<span style="font-family: 'Times New Roman'; font-size: 22px;">7. Subspaces of <i>R</i><sup>2</sup>:</span>** <span style="font-family: 'Times New Roman'; font-size: 22px;"> Subspaces of the vector space <i>R</i><sup>2</sup> over <i>R</i> are precisely {0}, <i>R</i> and lines passing through origin. That is, <br>
-(i)   <i>W</i>≡{(0,0)} is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i>. <br>
-(ii)  <i>W</i>≡<i>R</i><sup>2</sup> is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i>. <br> 
-(iii) If <i>W</i> is a line passing through origin, then <i>W</i> is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i> and <br> 
-(iv)  If <i>W</i> is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i>, then <i>W</i>={0} or <i>R</i><sup>2</sup> or a line passing through origin. <br> 
+**<span style="font-family: 'Times New Roman'; font-size: 22px;">7. Subspaces of <i>R</i><sup>2</sup>:</span>** <span style="font-family: 'Times New Roman'; font-size: 22px;"> Subspaces of the vector space <i>R</i><sup>2</sup> over <i>R</i> are precisely {(0, 0)}, <i>R</i> and lines passing through the origin. That is, <br>
+(i)   <i>W</i>≡{(0,0)} is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i>, <br>
+(ii)  <i>W</i>≡<i>R</i><sup>2</sup> is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i>, <br> 
+(iii) If <i>W</i> is a line passing through the origin, then <i>W</i> is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i> and <br> 
+(iv)  If <i>W</i> is a subspace of the vector space <i>R</i><sup>2</sup> over <i>R</i>, then <i>W</i>={(0, 0)} or <i>R</i><sup>2</sup> or a line passing through the origin. <br> 
 <b>Proof:</b> <br> 
-(i)   It is similar to that of 5(i). <br>
-(ii)  It is similar to that of 5(ii). <br>
+(i)   It is similar to that of 6(i). <br>
+(ii)  It is similar to that of 6(ii). <br>
 (iii) Clearly <i>W</i>≡{(<i>x, y</i>)∈<i>R</i><sup>2</sup>: <i>ax</i>+<i>by</i>=0}, for some <i>a, b</i>∈<i>R</i>, such that either <i>a</i>≠0 or <i>b</i>≠0. Notice that <i>W</i> is the line <i>y</i>=<i>mx</i> or <i>x</i>=0, where <i>m</i>∈<i>R</i>. Clearly <i>W</i>⊆<i>R</i><sup>2</sup> and (0, 0)∈<i>W</i>. Let (<i>r, s</i>), (<i>t, u</i>)∈<i>W</i>. Hence <i>ar</i>+<i>bs</i>=0, <i>at</i>+<i>bu</i>=0. Then  (<i>r, s</i>) + (<i>t, u</i>)=(<i>r</i>+<i>t</i>, <i>s</i>+<i>u</i>)∈<i>W</i>, since <i>a</i>(<i>r</i>+<i>t</i>)+<i>b</i>(<i>s</i>+<i>u</i>)=[(<i>ar</i>+<i>bs</i>)+(<i>at</i>+<i>bu</i>)])=0. Also <i>α</i>.(<i>r, s</i>)=(<i>α.r, α.s</i>)∈<i>W</i>, since <i>a</i>(<i>α.r</i>)+<i>b</i>(<i>α.s</i>)=0. Hence <i>W</i> is a subspace.</span> <br>
 ![Subspaces of R<sup>2</sup>](images/exp2image6.PNG "Subspaces of R<sup>2</sup>")<br>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">(iv)  Let <i>W</i> be a subspace of <i>R</i><sup>2</sup> other than {(0, 0)} and <i>R</i><sup>2</sup>. We prove that <i>W</i> is a line passing through the origin. Let (<i>c, d</i>)∈<i>W</i> such that (<i>c, d</i>) ≠ 0. We claim that <i>W</i> is the line <i>L</i> passing through (<i>c, d</i>) and origin. Then <i>L</i>={(<i>x, y</i>)∈<i>R</i><sup>2</sup> : <i>dx</i>-<i>cy</i>=0}. Clearly <i>L</i>⊆<i>W</i> and we prove that <i>W</i>⊆<i>L</i>. Let (<i>m, n</i>)∈<i>W</i> such that (<i>m, n</i>)≠(0, 0). To the contrary, let (<i>m, n</i>)∉<i>L</i>. For (<i>x, y</i>)∈<i>R</i><sup>2</sup>; one can obtain <i>α, β</i>∈<i>R</i> such that (<i>x, y</i>)=<i>α</i>.(<i>m, n</i>)+<i>β</i>.(<i>c, d</i>). Then (<i>x, y</i>)∈<i>W</i>. Hence <i>W</i>≡<i>R</i><sup>2</sup>, a contradiction. This completes the proof.</span> <br>
