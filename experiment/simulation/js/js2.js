@@ -42,7 +42,7 @@ function showmatrix() {
 	  }
 
 	  function showres(){
-	  	document.getElementById("showres").innerHTML = ("Hence, <i>W</i> is a subspace of <i>V</i>.");
+	  	document.getElementById("showres").innerHTML = ("<i>W</i> is a subspace of <i>V</i>.");
 	  }
 
 
@@ -94,7 +94,7 @@ function showmatrix() {
 	  
 	  }
 	  function showres2(){
-	  	document.getElementById("showres2").innerHTML = ("Hence, <i>W</i> is not a subspace of <i>V</i>.");
+	  	document.getElementById("showres2").innerHTML = ("<i>W</i> is not a subspace of <i>V</i>.");
 	  }
 
 	  function showform(){
