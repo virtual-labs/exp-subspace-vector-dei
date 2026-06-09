@@ -3,7 +3,7 @@
 3.	In the same box click on the explanation button to see the explanation for the right answer.<br>
 4.	Having gone through the previous steps, user is required to guess the subspaces of <i>R<sup>n</sup></i> for <i>n</i> > 3, as stated on the bottom of the page.<br>
 5.	Click on the “Next” button to go to the next page. <br>
-6.	This page provides examples to understand the experiment. Example I provides insight to show that a given subset is a subspace, while example II provides insight to show that a given subset is not a subspace. <br>
+6.	This page provides examples to understand the experiment. Example I provides insight to show that a given subset is a subspace, while Example II provides insight to show that a given subset is not a subspace. <br>
 7.	In Example I, in the Caution section click on the “Choose matrices” button and enter the required values. Click on “Submit” button to understand the caution. <br>
 8.	Now in same example click on the “Let” button to understand how to begin solving the problem. Click on the “Then” button and “Conclusion” button sequentially, to understand the complete justification. <br>
 9.	In Example II, in the Caution section click on the “Choose matrices” button and enter the required values. Click on “Submit” button to understand the caution. <br>
